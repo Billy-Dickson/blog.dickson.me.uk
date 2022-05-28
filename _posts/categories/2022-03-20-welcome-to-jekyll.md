@@ -2,7 +2,7 @@
 layout: single
 title:  "Welcome to Jekyll!"
 date:   2022-03-20 13:37:08 +0000
-categories: jekyll update
+categories: jekyll
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -23,6 +23,13 @@ print_hi('Tom')
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+#### Useful Jekyll Links
+1. [Quick-Start Guide for Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide) my current theme.
+2. Wordpress addon called [Wordpress Jekyll Explorer](https://wordpress.org/plugins/jekyll-exporter/) that I'm going to try and use to export my old Wordpress Site to a Jekyll.
+3. Here are a couple of helpful links that describe a number of options for converting WordPress to Jekyll, [here](https://strzibny.name) and [here](https://talk.hyvor.com/blog/migrate-from-wordpress-to-jekyll).
+4. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for Github and Jekyll.
+
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
