@@ -24,12 +24,6 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-#### Useful Jekyll Links
-1. [Quick-Start Guide for Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide) my current theme.
-2. Wordpress addon called [Wordpress Jekyll Explorer](https://wordpress.org/plugins/jekyll-exporter/) that I'm going to try and use to export my old Wordpress Site to a Jekyll.
-3. Here are a couple of helpful links that describe a number of options for converting WordPress to Jekyll, [here](https://strzibny.name) and [here](https://talk.hyvor.com/blog/migrate-from-wordpress-to-jekyll).
-4. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for Github and Jekyll.
-
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll

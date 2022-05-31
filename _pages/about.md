@@ -21,7 +21,7 @@ Son,  Sister, Parents, Uncles, Aunties, Nieces, Nephews, and numerous Cousins an
 
 ### Religion
 
-Not religious
+Not religious at all.
 
 ### Music Taste
 
@@ -33,13 +33,11 @@ My current favourites band at the moment are [Amyl and the Sniffers](https://www
 
 Mostly optimistic
 
-
 ### Likes
 
 Spending time with friend and socialising, playing pool, travelling and holidays! keeping fit and going to the gym, tinkering about with new technology. I also enjoy reading, photography, Chinese, Tai, India and Italian food. I used to play bass guitar in various bands when I was younger and still enjoy playing now and again, either on my own or jamming with friends.
 
-
-### IT, Web Technologies and Home Automation.
+### IT, Web Technologies and Home Automation
 
 Web Technologies Such as HTML and CSS, Networking and Computer Technologies
 
@@ -47,7 +45,9 @@ I'm currently in in the process of resurrecting my [old blog](https://web.archiv
 
 ### Home Automation and IOT
 
-I'm currently using a [Hubitat Bridge](https://hubitat.com/), but I'm thinking of moving onto the  [Home Assistant](https://www.home-assistant.io/) ecosystem (after the chip shortage isn't a thing). I also have an interest in Smart Lighting and Smart Heating using a mobile applications such as Amazon or Google Home for control.
+I'm currently using a [Hubitat Bridge](https://hubitat.com/), but I'm thinking of moving onto the  [Home Assistant](https://www.home-assistant.io/) ecosystem (after the chip shortage isn't a thing).
+
+I also have an interest in Smart Lighting and Smart Heating using a mobile applications such as Amazon or Google Home for control.
 
 ### Relaxing
 
