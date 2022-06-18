@@ -151,7 +151,7 @@ And now the heart rate zones can be defined:
 
 ### Race Distance Heart Rate
 
-Bare in mind that these are only approximationAbsoultelys, your heart rate will vary with on the day with things like lack of sleep, dehydration and external factors such as weather (sunny or freezing conditions).
+Bare in mind that these are only approximations, your heart rate will vary with on the day with things like lack of sleep, dehydration and external factors such as weather (sunny or freezing conditions).
 
 So although heart rate is good to know and can be helpful to you while your running, my best advise to you, is to just enjoy the race and not to fixate too much on it (use it as a guide).
 
