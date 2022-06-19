@@ -49,17 +49,17 @@ Below is a table of Maximum Heart Rate's using __(Formula A)__ and __(Formula B)
 
 ~~~text
     Age             (Formula A)             (Formula B)
-    20 years        MHR = 194 (BPM)         HMR = 195 (BPM)
-    25 years        MHR = 190 (BPM)         MHR = 192 (BPM)
-    30 years        MHR = 187 (BPM)         MHR = 190 (BPM)
-    35 years        MHR = 183 (BPM)         MHR = 187 (BPM)
-    40 years        MHR = 180 (BPM)         MHR = 185 (BPM)
-    45 years        MHR = 176 (BPM)         MHR = 182 (BPM)
-    50 years        MHR = 173 (BPM)         MHR = 180 (BPM)
-    55 years        MHR = 169 (BPM)         MHR = 177 (BPM)
-    60 years        MHR = 166 (BPM)         MHR = 175 (BPM)
-    65 years        MHR = 162 (BPM)         MHR = 172 (BPM)
-    70 years        MHR = 159 (BPM)         MHR = 167 (BPM)
+    20 years    MHR = 194 (BPM)         HMR = 195 (BPM)
+    25 years    MHR = 190 (BPM)         MHR = 192 (BPM)
+    30 years    MHR = 187 (BPM)         MHR = 190 (BPM)
+    35 years    MHR = 183 (BPM)         MHR = 187 (BPM)
+    40 years    MHR = 180 (BPM)         MHR = 185 (BPM)
+    45 years    MHR = 176 (BPM)         MHR = 182 (BPM)
+    50 years    MHR = 173 (BPM)         MHR = 180 (BPM)
+    55 years    MHR = 169 (BPM)         MHR = 177 (BPM)
+    60 years    MHR = 166 (BPM)         MHR = 175 (BPM)
+    65 years    MHR = 162 (BPM)         MHR = 172 (BPM)
+    70 years    MHR = 159 (BPM)         MHR = 167 (BPM)
 ~~~
 
 ### Putting It All Together
@@ -108,7 +108,7 @@ After you apply these intensity numbers to the target heart rate formula you wil
 
 ### Example
 
-I have measured my resting heart rate a few months ago. so I'll use those numbers to show you an example. Don’t forget that everyone has different resting and maximum heart rates, so use your heart rates when doing the calculations!
+I have measured my resting heart rate a few months ago. so I'll use those numbers to show you an example, I'll be using ___(Formula B)___ as it's the most accurate for my age (55). Don’t forget that everyone has different resting and maximum heart rates, so use your own resting heart rate and maximum heart rate when doing the calculations!
 
 ~~~text
     Resting heart rate - 47
