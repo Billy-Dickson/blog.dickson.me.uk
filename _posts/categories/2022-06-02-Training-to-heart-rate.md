@@ -45,19 +45,22 @@ __(Formula B)__ MHR = 205 - (.5 x your age)
 
 > A small group of Runner's World staffers recently tested these two formulas, and reached the following conclusions. Both seem to work almost equally well for runners under The HUNT formula (men and women who are active): 211 - (0.64 x age). For runners over 40, formula (B) appears to be more accurate. We now believe that (B) is the single best formula for predicting maximum heart rate, and we're adopting it as our Runner's World standard.
 
-|Age |(Formula A)|(Formula B)|
-|---|:------------------------:|:--------------------------------:|
-|__20 years__|MHR = 194 (BPM)|MHR = 195 (BPM)|
-|__25 years__|MHR = 190 (BPM)|MHR = 192 (BPM)|
-|__30 years__|MHR = 187 (BPM)|MHR = 190 (BPM)|
-|__35 years__|MHR = 183 (BPM)|MHR = 187 (BPM)|
-|__40 years__|MHR = 180 (BPM)|MHR = 185 (BPM)|
-|__45 years__|MHR = 176 (BPM)|MHR = 182 (BPM)|
-|__50 years__|MHR = 173 (BPM)|MHR = 180 (BPM)|
-|__55 years__|MHR = 169 (BPM)|MHR = 177 (BPM)|
-|__60 years__|MHR = 166 (BPM)|MHR = 175 (BPM)|
-|__65 years__|MHR = 162 (BPM)|MHR = 172 (BPM)|
-|__70 years__|MHR = 159 (BPM)|MHR = 167 (BPM)|
+Below is a table of Maximum Heart Rate's using __(Formula A)__ and __(Formula B)__ by age, please feel free to use it if you don't currently know your Maximum Heart Rate.
+
+~~~text
+    Age             (Formula A)             (Formula B)
+    20 years        MHR = 194 (BPM)         HMR = 195 (BPM)
+    25 years        MHR = 190 (BPM)         MHR = 192 (BPM)
+    30 years        MHR = 187 (BPM)         MHR = 190 (BPM)
+    35 years        MHR = 183 (BPM)         MHR = 187 (BPM)
+    40 years        MHR = 180 (BPM)         MHR = 185 (BPM)
+    45 years        MHR = 176 (BPM)         MHR = 182 (BPM)
+    50 years        MHR = 173 (BPM)         MHR = 180 (BPM)
+    55 years        MHR = 169 (BPM)         MHR = 177 (BPM)
+    60 years        MHR = 166 (BPM)         MHR = 175 (BPM)
+    65 years        MHR = 162 (BPM)         MHR = 172 (BPM)
+    70 years        MHR = 159 (BPM)         MHR = 167 (BPM)
+~~~
 
 ### Putting It All Together
 
@@ -151,7 +154,7 @@ And now the heart rate zones can be defined:
 
 ### Race Distance Heart Rate
 
-Bare in mind that these are only approximations, your heart rate will vary with on the day with things like lack of sleep, dehydration and external factors such as weather (sunny or freezing conditions).
+Bare in mind that these are only approximations, your heart rate will vary with because of lack of sleep, dehydration and over training alsos external factors such as weather (sunny or freezing conditions).
 
 So although heart rate is good to know and can be helpful to you while your running, my best advise to you, is to just enjoy the race and not to fixate too much on it (use it as a guide).
 
