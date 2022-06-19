@@ -108,7 +108,7 @@ After you apply these intensity numbers to the target heart rate formula you wil
 
 ### Example
 
-The last time I have measured my heart rate a few months ago. I will use those numbers to show you an example. Don’t forget that everyone has different resting and maximum heart rates, so use your heart rates when doing the calculations!
+I have measured my resting heart rate a few months ago. so I'll use those numbers to show you an example. Don’t forget that everyone has different resting and maximum heart rates, so use your heart rates when doing the calculations!
 
 ~~~text
     Resting heart rate - 47
