@@ -62,6 +62,14 @@ Below is a table of Maximum Heart Rate's using __(Formula A)__ and __(Formula B)
     70 years    MHR = 159 (BPM)         MHR = 167 (BPM)
 ~~~
 
+ __Formula B__ in extremely accurate at 177 BPM).
+
+As you can see from my [Garmin Connect](https://connect.garmin.com) account, which shows an average of 176 (BPM) over a year, see graphic below.
+
+If you have a garmin account, you can find this information under __Reports --> Maximum Heart Rate__.
+
+![alt text](../../assets/images/Garmin_Maximum_Heart_Rate.png "Maximum Heart Rate")
+
 ### Putting It All Together
 
 Using your resting heart rate and your maximum heart rate, you can work out your heart rate zones using heart rate reserve and the karvonen heart formula below.
