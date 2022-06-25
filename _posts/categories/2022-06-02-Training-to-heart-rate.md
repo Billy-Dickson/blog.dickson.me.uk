@@ -18,6 +18,8 @@ To calculate your heart rate zones you will need two numbers, and basic math ski
 
 The best time to take your pulse is before you get up in the morning. To get an accurate resting heart rate, take a readings every morning for 3 mornings and divide by 3 to give you an average. You will of course need a watch with a second hand to accomplish this.
 
+Also as my better looking half just pointed out, you can also use your mobile phone, most of which come with a clock with the ability to measure time.
+
 Your heart rate is the number of times your heart beats per minute (bpm). A normal heart rate is between 60 and 100 bpm while you’re resting.
 
 ![alt text](../../assets/images/checking-your-pulse-210x137.png "Taking Heart Rate Graphic")
