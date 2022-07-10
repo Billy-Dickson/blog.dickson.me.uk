@@ -55,18 +55,18 @@ __(Formula B)__ MHR = 205 - (.5 x your age)
 Below is a table of Maximum Heart Rate's using __(Formula A)__ and __(Formula B)__ by age, please feel free to use it if you don't currently know your Maximum Heart Rate.
 
 ~~~text
-    Age         (Formula A)         (Formula B)
-    20 years    MHR = 194 (BPM)     HMR = 195 (BPM)
-    25 years    MHR = 190 (BPM)     MHR = 192 (BPM)
-    30 years    MHR = 187 (BPM)     MHR = 190 (BPM)
-    35 years    MHR = 183 (BPM)     MHR = 187 (BPM)
-    40 years    MHR = 180 (BPM)     MHR = 185 (BPM)
-    45 years    MHR = 176 (BPM)     MHR = 182 (BPM)
-    50 years    MHR = 173 (BPM)     MHR = 180 (BPM)
-    55 years    MHR = 169 (BPM)     MHR = 177 (BPM)
-    60 years    MHR = 166 (BPM)     MHR = 175 (BPM)
-    65 years    MHR = 162 (BPM)     MHR = 172 (BPM)
-    70 years    MHR = 159 (BPM)     MHR = 167 (BPM)
+Age         (Formula A)         (Formula B)
+20 years    MHR = 194 (BPM)     HMR = 195 (BPM)
+25 years    MHR = 190 (BPM)     MHR = 192 (BPM)
+30 years    MHR = 187 (BPM)     MHR = 190 (BPM)
+35 years    MHR = 183 (BPM)     MHR = 187 (BPM)
+40 years    MHR = 180 (BPM)     MHR = 185 (BPM)
+45 years    MHR = 176 (BPM)     MHR = 182 (BPM)
+50 years    MHR = 173 (BPM)     MHR = 180 (BPM)
+55 years    MHR = 169 (BPM)     MHR = 177 (BPM)
+60 years    MHR = 166 (BPM)     MHR = 175 (BPM)
+65 years    MHR = 162 (BPM)     MHR = 172 (BPM)
+70 years    MHR = 159 (BPM)     MHR = 167 (BPM)
 ~~~
 
  __Formula B__ in extremely accurate at 177 BPM).
@@ -159,7 +159,7 @@ And now the heart rate zones can be defined:
     Zone5: 164-177
 ~~~
 
-#### Workout percent of maximum heart rate (MHR)
+#### Workout as a percentage of MHR
 
 ~~~text
     Easy run and long run 65-75%
