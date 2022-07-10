@@ -3,22 +3,23 @@ layout: single
 title:  "Working out your heart rate zones"
 date:   2022-07-09
 categories: Running
+
 toc: true
 toc_label: "Heart Rate Zones" # default : Content
 toc_icon: "heart"  # corresponding Font Awesome icon name without the "fa" prefix
 toc_sticky: true # enables sticky toc
 ---
 
-## How to work out your Heart Rate zones
+### Heart Rate Zones
 
 To calculate your heart rate zones you will need two numbers, and basic math skills:
 
 1. Your resting heart rate
 2. Your maximum heart rate
 
-## Resting heart rate
+### Resting heart rate
 
-### Measuring your resting heart rate
+#### Measuring your resting heart rate
 
 The best time to take your pulse is before you get up in the morning. To get an accurate resting heart rate, take a readings every morning for 3 mornings and divide by 3 to give you an average. You will of course need a watch with a second hand to accomplish this.
 
@@ -28,13 +29,13 @@ Your heart rate is the number of times your heart beats per minute (bpm). A norm
 
 ![alt text](../../assets/images/checking-your-pulse-210x137.png "Taking Heart Rate Graphic")
 
-### Low resting heart rate (bradycardia)
+#### Low resting heart rate (bradycardia)
 
 A low heart rate is classified as a heart rate less than 60 bpm. The medical term for a heart rate of around or less than this is bradycardia.
 
 For some people such as athletes, bradycardia doesn’t pose a health risk. But if you have a low heart rate and are experiencing symptoms like fainting, fatigue and dizziness then you should make an appointment with your GP.
 
-### Working out you maximum heart rate
+#### Working out you maximum heart rate
 
 The Karvonen formula is one of the bests that can be used to define your heart rate zones and anaerobic threshold. It is based on the heart rate reserve, so it takes into account both your resting heart rate and maximum heart rate. Therefore it gives a much better result than the formulas that use only the maximum heart rate.
 
@@ -76,7 +77,7 @@ If you have a [garmin connect](https://connect.garmin.com/) accont, you can find
 
 ![alt text](../../assets/images/Garmin_Maximum_Heart_Rate.png "Maximum Heart Rate")
 
-### Putting It All Together
+#### Putting It All Together
 
 Using your resting heart rate and your maximum heart rate, you can work out your heart rate zones using heart rate reserve and the karvonen heart formula below.
 
@@ -84,7 +85,7 @@ Alternatively, you can goto the website below, plug in your __resting heart rate
 
 [Kavonen Heart Rate Calculator](https://runandbeyond.com/calculator-karvonen/)
 
-### Heart Rate Reserve
+#### Heart Rate Reserve
 
 The Karvonen formula uses the heart rate reserve — this is a number, the size of the range between your resting heart rate and maximum heart rate. To calculate it all you need to do is to subtract the resting heart rate from the maximum heart rate.
 
@@ -94,7 +95,7 @@ The Karvonen formula uses the heart rate reserve — this is a number, the size 
 
 You need to calculate this number as it is used to calculate the heart rate zones.
 
-### Target Heart Rate
+#### Target Heart Rate
 
 To calculate the heart rate zones all you need to do is to add your resting heart rate to a certain percentage the heart rate reserve. This is the formula:
 
@@ -104,7 +105,7 @@ To calculate the heart rate zones all you need to do is to add your resting hear
 
 The intensity number is defined by the Karvonen Formula.
 
-### Karvonen Heart Rate Zones
+#### Karvonen Heart Rate Zones
 
 The Karvonen formula defines the following five zones, using two numbers two define each zone — the lower and the higher end of it:
 
@@ -158,7 +159,7 @@ And now the heart rate zones can be defined:
     Zone5: 164-177
 ~~~
 
-### Workout percent of maximum heart rate (MHR)
+#### Workout percent of maximum heart rate (MHR)
 
 ~~~text
     Easy run and long run 65-75%
@@ -166,7 +167,7 @@ And now the heart rate zones can be defined:
     Interval repeats 95-100%
 ~~~
 
-### Race Distance Heart Rate
+#### Race Distance Heart Rate
 
 Bare in mind that these are only approximations, your heart rate will vary with because of lack of sleep, dehydration and over training alsos external factors such as weather (sunny or freezing conditions).
 
@@ -181,7 +182,7 @@ So although heart rate is good to know and can be helpful to you while your runn
 
 > [Fern Oliner](https://www.runnersworld.com/training/a20823643/runners-learn-how-to-use-your-heart-rate-monitor/) had been a runner for more than 25 years when she experienced a breakthrough in her performance. It happened at age 59, during a challenging half-marathon.
 
-## References
+### References
 
 1. [How To Use A Heart Rate Monitor](https://www.runnersworld.com/training/a20823643/runners-learn-how-to-use-your-heart-rate-monitor/?utm_source=pocket_mylist)
 2. [Target Rate Heart Rates Charts](https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates?utm_source=pocket_mylist)
