@@ -7,7 +7,7 @@ permalink: /about/
 
 ### Occupation
 
-I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, I'll happily tell you all about the good, the bad, and the ugly of working in academia.
+I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, I'll happily tell you all about the good, the bad, and the ugly of working in academia. :wink:
 
 I started my new job this year on 7th March 2022, It was definitely time for me to move on, and I'm glad I did.
 
