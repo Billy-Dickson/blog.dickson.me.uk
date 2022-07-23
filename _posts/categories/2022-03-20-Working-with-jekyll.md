@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Welcome to Jekyll!"
+title:  "Working with Jekyll"
 date:   2022-03-20 13:37:08 +0000
 categories: jekyll
 ---
@@ -39,3 +39,4 @@ This is more of a reminder for me, but feel free to use them if it's helpful. I'
 4. Here is a helpful links that describe a number of options for converting WordPress to [Jekyll](https://talk.hyvor.com/blog/migrate-from-wordpress-to-jekyll). I'll update these link as then try them, at the moment they are a reminder to myself.
 5. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for Github and Jekyll
 6. Install instructions for [Algolia search integration](https://beatletech.com/2020/08/16/jekyll-and-algolia-search-integration) for my Jekyll Website.
+7. [Jekyll-Algolia](https://community.algolia.com/jekyll-algolia/getting-started.html) Algolia Community Website for Jekyll

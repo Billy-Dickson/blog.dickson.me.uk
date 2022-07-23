@@ -12,7 +12,7 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-GB"
@@ -70,9 +70,11 @@ algolia:
   index_name:           'dickson.me.uk'
   search_only_api_key:  '777a4db5685501fb026179a516965154'
   powered_by             : # true (default), false
+
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -82,9 +84,9 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "BillyDickson4"
 facebook:
-  username               :
+  username               : 
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -113,6 +115,8 @@ author:
   facebook         : "billy.dickson"
   twitter          : "BillyDickson4"
   instagram        : "billydickson157"
+  linkedin         : "billydickson"
+  
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
