@@ -40,3 +40,4 @@ This is more of a reminder for me, but feel free to use them if it's helpful. I'
 5. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for Github and Jekyll
 6. Install instructions for [Algolia search integration](https://beatletech.com/2020/08/16/jekyll-and-algolia-search-integration) for my Jekyll Website.
 7. [Jekyll-Algolia](https://community.algolia.com/jekyll-algolia/getting-started.html) Algolia Community Website for Jekyll
+8. Personal Website of Peter Wills where I found some handy tutorials about using [Minimal Mistakes](http://www.pwills.com/posts/2017/12/20/website.html)
