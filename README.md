@@ -8,6 +8,6 @@ The website functions as an online technology blog, as well as a place for me to
 
 For a more detailed guide on how the site was built, check out the how-to post on the blog (still to write!)
 
-Site is built in jekyll on top of Minimal Mistakes. Using some of my own images. If you have questions, drop me a email.
+Site is built in jekyll on top of Minimal Mistakes, using some of my own images. If you have questions, drop me a email.
 
 ![Website Graphics](/assets/images/Graphic_for_Github_README_md.png)
