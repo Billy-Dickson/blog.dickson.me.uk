@@ -1,16 +1,16 @@
 ---
 layout: single
-title:  "Exiftool - Remove exif data from photographs"
-date:   2022-03-20 13:37:08 +0000
-categories: computing, linux, commandline
+title:  "exiftool - Remove exif data from photos"
+date:   2022-08-10 13:37:08 +0000
+categories: Computing Linux Homelab
 publish: false
 ---
 
-## Howto remove exif data from photos
+## How to remove exif data from photos
 
-Here's a handy linux command line tool that removes exif data from photographs, This one I use to remove the exif data from photos before I publish them to my website.
+Here's a handy linux command line tool that removes exif data from photographs, This one I use to remove the exif data from photos before I publish them to my website. Removing EXIF is a smart idea, particularly if you're especially privacy-conscious however, as we mentioned, your biggest concern is most likely the geolocation information.
 
-## Install the appication
+### Install the appication
 
 ~~~bash
 sudo apt install exiftool
@@ -60,4 +60,6 @@ exiftool -gps:all= *.jpg
 
 ## References
 
-[Linux Nightly](https://linuxnightly.com/how-to-remove-exif-data-via-linux-command-line/)
+1) [Linux Nightly](https://linuxnightly.com/how-to-remove-exif-data-via-linux-command-line/)
+
+2) Removing exif data using [other operating systems](https://www.howtogeek.com/203592/what-is-exif-data-and-how-to-remove-it/)
