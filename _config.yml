@@ -14,6 +14,7 @@ theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+
 # Site Settings
 locale                   : "en-GB"
 title                    : "Running, IT and Tech"
@@ -281,6 +282,7 @@ compress_html:
   ignore:
     envs: development
 
+  
 # Defaults
 defaults:
   # _posts
@@ -294,10 +296,16 @@ defaults:
       comments: # true
       share: true
       related: false
+      header:
+        image: "/assets/images/headers/Port_Patrick.jpg"
+        caption: "Port Patrick Scotland"
+        image_description: "Port Pratrick Scotland"
+      
       # Added on 14/08/22 Billy Dickson
       # Playing around with full screen size, comment or uncomment
       # to see the difference.
       # classes: wide
+
   # _pages
   - scope:
       path: ""
@@ -305,4 +313,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+      header:
+        image: "/assets/images/headers/Beach.jpg"
+        caption: "Port Patrick Beach"
+        image_description: "Port Patrick Beach Scotland"
+        
