@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "About Me"
-date: 2022-05-26
+date: 2022-08-16
 permalink: /about/
 ---
 
@@ -21,7 +21,7 @@ Son,  Sister, Parents, Uncles, Aunties, Nieces, Nephews, and numerous Cousins an
 
 ### Religion
 
-Not religious at all.
+Not religious.
 
 ### Music Taste
 

@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Running, IT and Tech"
+title                    : "The Internet made me do IT!"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Billy Dickson"
@@ -315,6 +315,6 @@ defaults:
       author_profile: true
       header:
         image: "/assets/images/headers/Beach.jpg"
-        caption: "Port Patrick Beach"
-        image_description: "Port Patrick Beach Scotland"
+        caption: "Port Patrick Scotland"
+        image_description: "Port Patrick Scotland"
         
