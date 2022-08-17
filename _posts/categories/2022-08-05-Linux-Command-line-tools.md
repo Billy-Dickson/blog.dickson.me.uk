@@ -1,12 +1,12 @@
 ---
 layout: single
-title:  "Removing exif data from photos using Linux exiftool"
+title:  "Removing exif data using Linux exiftool"
 date:   2022-08-10 13:37:08 +0000
 categories: Computing Linux Homelab
 publish: true
 ---
 
-## How to remove exif data from photos
+### How to remove exif data from photos
 
 Here's a handy linux command line tool that rcan remove all exif data from your photographs. This one I use to remove the exif data from my photographs before I publish them to my website.
 
@@ -16,55 +16,55 @@ If you use a distribution not based on debian, then the install syntax will vary
 
 Removing EXIF is a smart idea, particularly if you're especially privacy-conscious however, your biggest concern is most likely the geolocation information.
 
-### Install the appication
+#### Install the appication
 
 ~~~bash
 sudo apt install exiftool
 ~~~
 
-### Show the metadata
+#### Show the metadata
 
 ~~~bash
 exiftool photo.jpg
 ~~~
 
-### Show metedata for all *.jpg files. Note: The extension is case sensitive
+#### Show metedata for all *.jpg files. Note: The extension is case sensitive
 
 ~~~bash
 exiftool -ext jpg .
 ~~~
 
-### Same as above, but include sub directories
+#### Same as above, but include sub directories
 
 ~~~bash
 exiftool -r -ext jpg .
 ~~~
 
-### Remove all metadata
+#### Remove all metadata
 
 ~~~bash
 exiftool -all= -overwrite_original photo.jpg
 ~~~
 
-### Remove all metadata of all *.jpg files in the current directory
+#### Remove all metadata of all *.jpg files in the current directory
 
 ~~~bash
 exiftool -all= -overwrite_original -ext jpg .
 ~~~
 
-### Does the same as above, but includes subdirectories
+#### Does the same as above, but includes subdirectories
 
 ~~~bash
 exiftool -all= -r -overwrite_original -ext jpg .
 ~~~
 
-### Remove all GPS metadata of *.jpg files in the current directory
+#### Remove all GPS metadata of *.jpg files in the current directory
 
 ~~~bash
 exiftool -gps:all= *.jpg
 ~~~
 
-## References
+### References
 
 - [Linux Nightly](https://linuxnightly.com/how-to-remove-exif-data-via-linux-command-line/) online Linux Magazine.
 - Removing exif data using [other operating systems](https://www.howtogeek.com/203592/what-is-exif-data-and-how-to-remove-it/)
