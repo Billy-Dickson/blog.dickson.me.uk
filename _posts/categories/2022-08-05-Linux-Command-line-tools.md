@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "How to - remove exif data from photos using Linux exiftool"
+title:  "Removing exif data from photos using Linux exiftool"
 date:   2022-08-10 13:37:08 +0000
 categories: Computing Linux Homelab
 publish: true
@@ -31,7 +31,7 @@ exiftool photo.jpg
 ### Show metedata for all *.jpg files. Note: The extension is case sensitive
 
 ~~~bash
-exiftool -ext jpg
+exiftool -ext jpg .
 ~~~
 
 ### Same as above, but include sub directories
@@ -49,7 +49,7 @@ exiftool -all= -overwrite_original photo.jpg
 ### Remove all metadata of all *.jpg files in the current directory
 
 ~~~bash
-exiftool -all= -overwrite_original -ext jpg
+exiftool -all= -overwrite_original -ext jpg .
 ~~~
 
 ### Does the same as above, but includes subdirectories
