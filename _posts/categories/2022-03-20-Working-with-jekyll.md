@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Working with Jekyll"
-date:   2022-03-20 13:37:08 +0000
+date:   2022-08-17
 categories: jekyll Computing
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -31,15 +31,15 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 This is more of a reminder for me, but feel free to use them if it's helpful. I'm currently in the process of converting my old Wordpress site to Jekyll.
 
-#### Useful Jekyll Links
+#### Useful Markdown and Jekyll Links
 
-1. [Quick-Start Guide for Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide) my current theme.
-2. Handy [Minimum Mistakes Cheatsheet](https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/) that should help me as I'm updating my blog.
-3. Wordpress addon called [Wordpress Jekyll Explorer](https://wordpress.org/plugins/jekyll-exporter/) that I'm going to try and use to export my old Wordpress Site to a Jekyll.
-4. Here is a helpful links that describe a number of options for converting WordPress to [Jekyll](https://talk.hyvor.com/blog/migrate-from-wordpress-to-jekyll). I'll update these link as then try them, at the moment they are a reminder to myself.
-5. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for Github and Jekyll
-6. Install instructions for [Algolia search integration](https://beatletech.com/2020/08/16/jekyll-and-algolia-search-integration) for my Jekyll Website.
-7. [Jekyll-Algolia](https://community.algolia.com/jekyll-algolia/getting-started.html) Algolia Community Website for Jekyll
-8. Personal Website of Peter Wills where I found some handy tutorials and tips on using [Minimal Mistakes](http://www.pwills.com/posts/2017/12/20/website.html)
-9. Personal Website of Renato Golia where I found some handy tutorials and tips on using [Minimal Mistakes](https://renatogolia.com/)
-10. Shanto Roy's [Minimal Mistakes](https://shantoroy.com/) Website, [here](https://shantoroy.com/jekyll/google-analytics-in-jekyll-minimal-mistakes-blog-theme/) I found some good instuctions on setting up google analytics.
+- [Quick-Start Guide for Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide) my current theme.
+- Handy [Minimum Mistakes Cheatsheet](https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/) that should help me as I'm updating my blog.
+- Wordpress addon called [Wordpress Jekyll Explorer](https://wordpress.org/plugins/jekyll-exporter/) that I'm going to try and use to export my old Wordpress Site to a Jekyll.
+ Here is a helpful links that describe a number of options for converting WordPress to [Jekyll](https://talk.hyvor.com/blog/migrate-from-wordpress-to-jekyll). I'll update these link as then try them, at the moment they are a reminder to myself.
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for Github and Jekyll
+-Install instructions for [Algolia search integration](https://beatletech.com/2020/08/16/jekyll-and-algolia-search-integration) for my Jekyll Website.
+- [Jekyll-Algolia](https://community.algolia.com/jekyll-algolia/getting-started.html) Algolia Community Website for Jekyll
+-Personal Website of Peter Wills where I found some handy tutorials and tips on using [Minimal Mistakes](http://www.pwills.com/posts/2017/12/20/website.html)
+- Personal Website of Renato Golia where I found some handy tutorials and tips on using [Minimal Mistakes](https://renatogolia.com/)
+- Shanto Roy's [Minimal Mistakes](https://shantoroy.com/) Website, [here](https://shantoroy.com/jekyll/google-analytics-in-jekyll-minimal-mistakes-blog-theme/) I found some good instuctions on setting up google analytics.
