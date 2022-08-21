@@ -27,6 +27,7 @@ group :jekyll_plugins do
   gem "minitest"
   gem "jemoji"
   gem 'jekyll-algolia', '~> 1.0'
+  gem 'kramdown'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

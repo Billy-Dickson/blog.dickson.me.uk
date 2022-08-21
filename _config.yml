@@ -282,7 +282,6 @@ compress_html:
   ignore:
     envs: development
 
-  
 # Defaults
 defaults:
   # _posts
@@ -298,8 +297,8 @@ defaults:
       related: false
       header:
         image: "/assets/images/headers/Port_Patrick.jpg"
-        caption: "Port Patrick Scotland"
-        image_description: "Port Pratrick Scotland"
+        caption: "Portpatrick Scotland"
+        image_description: "Portpratrick Scotland"
       
       # Added on 14/08/22 Billy Dickson
       # Playing around with full screen size, comment or uncomment
@@ -315,6 +314,6 @@ defaults:
       author_profile: true
       header:
         image: "/assets/images/headers/Beach.jpg"
-        caption: "Port Patrick Scotland"
-        image_description: "Port Patrick Scotland"
+        caption: "Portpatrick Scotland"
+        image_description: "Portpatrick Scotland"
         

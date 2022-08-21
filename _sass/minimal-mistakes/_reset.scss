@@ -17,26 +17,26 @@ html {
   }
 
   @include breakpoint($large) {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 22px;
+    font-size: 21x;
   }
 */
 
 // Added after commenting out the defaults above, B.Dickson 25/07/22
 
 @include breakpoint($medium) {
-  font-size: 13px;
+  font-size: 17px;
 }
 
 @include breakpoint($large) {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 @include breakpoint($x-large) {
-  font-size: 18px;
+  font-size: 19px;
 }
 
   -webkit-text-size-adjust: 100%;
