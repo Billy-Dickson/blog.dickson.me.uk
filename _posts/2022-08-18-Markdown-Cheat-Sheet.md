@@ -380,12 +380,12 @@ Since YouTube makes this easy, we’ll use them as an example. Take this video, 
 YouTube automatically generates an image for every video (``https://img.youtube.com/vi/KMixoNTvtrA/0.jpg``), so we can use that and link the image to the video on YouTube. After we replace the image alt text and add the ID of the video, our example looks like this:
 
 ~~~html
-[![Motorhead Ace of Spades O2 Glasgow 2002](https://img.youtube.com/vi/KMixoNTvtrA/0.jpg)](https://youtu.be/KMixoNTvtrA)
+[![I Wish I was a Girl - Wasted Youth](https://img.youtube.com/vi/IQ5yU0eQzig/0.jpg)](https://youtu.be/IQ5yU0eQzig
 ~~~
 
 The rendered output looks like this
 
-[![Motorhead - Ace of Spades - O2 Glasgow 2002](https://img.youtube.com/vi/KMixoNTvtrA/0.jpg)](https://youtu.be/KMixoNTvtrA)
+[![Motorhead - Ace of Spades - O2 Glasgow 2002](https://img.youtube.com/vi/IQ5yU0eQzig/0.jpg)](https://youtu.be/IQ5yU0eQzig)
 
 ## References
 

@@ -27,7 +27,7 @@ Also, as my better looking half just pointed out, you can also use your mobile p
 
 Your heart rate is the number of times your heart beats per minute (bpm). A normal heart rate is between 60 and 100 bpm while you’re resting.
 
-![alt text](../../assets/images/checking-your-pulse-210x137.png "Taking Heart Rate Graphic")
+![Heart Rate](/assets/images/checking-your-pulse-210x137.png "Taking Heart Rate Graphic")
 
 #### Low resting heart rate (bradycardia)
 
@@ -75,7 +75,7 @@ As you can see from my [Garmin Connect](https://connect.garmin.com) account, whi
 
 If you have a [garmin connect](https://connect.garmin.com/) account, you can find this information under __Reports --> Maximum Heart Rate__.
 
-![alt text](../../assets/images/Garmin_Maximum_Heart_Rate.png "Maximum Heart Rate")
+![Garmin Maximum Heart Rate](/assets/images/Garmin_Maximum_Heart_Rate.png "Maximum Heart Rate")
 
 #### Putting It All Together
 
