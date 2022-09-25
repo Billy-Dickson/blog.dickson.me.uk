@@ -125,6 +125,7 @@ But for reference, the hub as of today, costs £135 via [Vesternet](https://www.
 Open up your Hubitat Hub in a browser of you choice.
 
 Select Devices
+
 1. Click on **Add Device**
 2. Click on **Brand**
 3. Type **Shelly**
