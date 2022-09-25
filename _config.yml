@@ -237,6 +237,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jemoji
+  - liquid
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -305,7 +306,6 @@ defaults:
       # Playing around with full screen size, comment or uncomment
       # to see the difference.
       # classes: wide
-
   # _pages
   - scope:
       path: ""
@@ -314,7 +314,7 @@ defaults:
       layout: single
       author_profile: true
       header:
-        image: "/assets/images/headers/Beach.jpg"
+        image: /assets/images/headers/Beach.jpg
         caption: "Portpatrick Scotland"
         image_description: "Portpatrick Scotland"
         

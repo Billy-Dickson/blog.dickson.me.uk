@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-17T20:50:43+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Internet made me do IT!</title><author><name>Billy Dickson</name></author><entry><title type="html">Markdown Cheatsheet</title><link href="http://localhost:4000/jekyll/computing/2022/08/19/Markdown-Cheat-Sheet.html" rel="alternate" type="text/html" title="Markdown Cheatsheet" /><published>2022-08-19T00:00:00+01:00</published><updated>2022-08-19T00:00:00+01:00</updated><id>http://localhost:4000/jekyll/computing/2022/08/19/Markdown-Cheat-Sheet</id><content type="html" xml:base="http://localhost:4000/jekyll/computing/2022/08/19/Markdown-Cheat-Sheet.html"><![CDATA[<p>This page is intended as a quick reference to help me while I’m writing my blogs, for more complete information see <a href="https://daringfireball.net/projects/markdown/">John Gruber’s original specification</a>.</p>
+
+<h2 id="phrase-emphasis">Phrase emphasis</h2>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ge">*italic*</span> and <span class="gs">**bold**</span>
+</code></pre></div></div>
+
+<p><em>italic</em> and <strong>bold</strong></p>
+
+<h2 id="links">Links</h2>
+
+<p><strong>Inline</strong> (titles are options):</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Some <span class="p">[</span><span class="nv">linked to</span><span class="p">](</span><span class="sx">https://example.com/</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Some <a href="https://example.com/">linked to</a></p>
+
+<p><strong>Reference-style labels</strong> (titles are optional):</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>An <span class="p">[</span><span class="nv">example</span><span class="p">][</span><span class="ss">id</span><span class="p">]</span>.
+</code></pre></div></div>
+
+<p>Then, anywhere else <strong>in the same block</strong>, define the link:</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="ss">id</span><span class="p">]:</span> <span class="sx">https://example.com/</span> <span class="nn">"Title"</span>
+</code></pre></div></div>
+
+<p>An <a href="https://example.com/" title="Title">example</a>]</p>
+
+<p class="notice--info">:bulb: You can use whatever you want to in place of “id”. Just ensure that they match.</p>
+
+<h3 id="formatting-links">Formatting Links</h3>
+
+<p>To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I love supporting the **[EFF](https://eff.org)**.\
+This is the *[Markdown Guide](https://www.markdownguide.org)*.\
+See the section on [`code`](#code).
+</code></pre></div></div>
+
+<p>The rendered output looks like this</p>
+
+<p>I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br />
+This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br />
+See the section on <a href="#code"><code class="language-plaintext highlighter-rouge">code</code></a>.</p>
+
+<h2 id="superscript-and-subscript">Superscript and Subscript</h2>
+
+<p>Bare in mind that Markdown doesn’t support Superscript or Subscript natively, this is an html workaround. You might get an <a href="https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033">error message</a> depending on the editor you are using, I’m using <a href="https://code.visualstudio.com/docs/setup/linux">Visual Studio Code</a> on <a href="https://pop.system76.com">Pop!_OS</a> which has been my daily driver for a year or so.</p>
+
+<h3 id="superscript">Superscript</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>E=MC<span class="nt">&lt;sup&gt;</span>2<span class="nt">&lt;/sup&gt;</span>
+</code></pre></div></div>
+
+<p>E=MC<sup>2</sup></p>
+
+<h3 id="subscript">Subscript</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Plants need CO<span class="nt">&lt;sub&gt;</span>2<span class="nt">&lt;/sub&gt;</span>
+</code></pre></div></div>
+
+<p>Plants need CO<sub>2</sub></p>
+
+<h2 id="images">Images</h2>
+
+<p>Inline (titles are optional):</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt text</span><span class="p">](</span><span class="sx">/assets/images/tux.png</span> <span class="nn">"Title"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="/assets/images/tux.png" alt="alt text" title="Title" /></p>
+
+<p>Reference-style:</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt text</span><span class="p">][</span><span class="ss">id</span><span class="p">]</span>
+</code></pre></div></div>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="ss">id</span><span class="p">]:</span> <span class="sx">/assets/images/tux.png</span> <span class="nn">"Title"</span>
+</code></pre></div></div>
+
+<p><img src="/assets/images/tux.png" alt="alt text" title="Title" /></p>
+
+<h2 id="headings">Headings</h2>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gu">## Heading 2</span>
+
+<span class="gu">### Heading 3</span>
+</code></pre></div></div>
+
+<h2 id="heading-2">Heading 2</h2>
+
+<p><a href="https://www.lipsum.com/">The standard Lorem Ipsum passage</a>, used since the 1500s
+“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+
+<h3 id="heading-3">Heading 3</h3>
+
+<p><a href="https://www.lipsum.com/">The standard Lorem Ipsum passage</a>, used since the 1500s
+“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+
+<h2 id="lists">Lists</h2>
+
+<h3 id="ordered-without-paragraphs">Ordered, without paragraphs</h3>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> Foo
+<span class="p">2.</span> Bar
+</code></pre></div></div>
+
+<ol>
+  <li>Foo</li>
+  <li>Bar</li>
+</ol>
+
+<h3 id="unordered-with-paragraphs"><strong>Unordered</strong>, with paragraphs</h3>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span> A list item.  
+With multiple paragraphs.
+<span class="p">*</span> Bar
+</code></pre></div></div>
+
+<ul>
+  <li>A list item.<br />
+With multiple paragraphs.</li>
+  <li>Bar</li>
+</ul>
+
+<h3 id="nested">Nested</h3>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span> Abacus
+<span class="p">  *</span> absolute
+<span class="p">*</span> Bananas
+<span class="p">    1.</span> bitter
+<span class="p">    2.</span> bupkis
+<span class="p">    3.</span> burper
+<span class="p">*</span> Cunning
+</code></pre></div></div>
+
+<ul>
+  <li>Abacus
+    <ul>
+      <li>absolute</li>
+    </ul>
+  </li>
+  <li>Bananas
+    <ol>
+      <li>bitter</li>
+      <li>bupkis</li>
+      <li>burper</li>
+    </ol>
+  </li>
+  <li>Cunning</li>
+</ul>
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; Email-style angle brackets are used for blockquotes.</span>
+<span class="gt">&gt;&gt; You can also nest them.</span>
+<span class="gt">&gt;&gt;</span>
+<span class="gt">&gt; * You can quote a list.</span>
+<span class="gt">&gt; * Etc.</span>
+<span class="gt">
+&gt; To break the nested blockquote, add a space between lines.</span>
+
+Add another line to resume regular paragraph text.
+</code></pre></div></div>
+
+<blockquote>
+  <p>Email-style angle brackets are used for blockquotes.</p>
+  <blockquote>
+    <p>You can also nest them.</p>
+
+    <ul>
+      <li>You can quote a list.</li>
+      <li>Etc.</li>
+      <li>Etc.
+To break the nested blockquote, add a space between lines.</li>
+    </ul>
+  </blockquote>
+</blockquote>
+
+<p>Add another line to resume regular paragraph text.</p>
+
+<p class="notice--info">:bulb:This site uses custom styling for blockquotes. The code provided here won’t create the same colour scheme as you are using in your own website, unless of course, your using the same theme as myself which is currently <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a> and the contrast theme.</p>
+
+<h2 id="extended-syntax">Extended Syntax</h2>
+
+<p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements, thankfully Jekyll does.</p>
+
+<h3 id="symbols">Symbols</h3>
+
+<p>Markdown doesn’t provide special syntax for symbols. However, in most cases, you can copy and paste whatever symbol you want to use into your Markdown document. For example, if you need to display Pi (π), just find the symbol on a webpage and copy and paste it into your document. The symbol should appear as expected in the rendered output.</p>
+
+<p>Alternatively, if your Markdown application supports HTML, you can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (©), you can copy and paste the HTML entity for copyright (©) into your Markdown document.</p>
+
+<p>Here’s a partial list of HTML entities for symbols:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Copyright (©) — <span class="ni">&amp;copy;</span>
+Registered trademark (®) — <span class="ni">&amp;reg;</span>
+Trademark (™) — <span class="ni">&amp;trade;</span>
+Euro (€) — <span class="ni">&amp;euro;</span>
+Left arrow (←) — <span class="ni">&amp;larr;</span>
+Up arrow (↑) — <span class="ni">&amp;uarr;</span>
+Right arrow (→) — <span class="ni">&amp;rarr;</span>
+Down arrow (↓) — <span class="ni">&amp;darr;</span>
+Degree (°) — <span class="ni">&amp;#176;</span>
+Pi (π) — <span class="ni">&amp;#960;</span>
+</code></pre></div></div>
+
+<p>For a complete list of available HTML entities, refer to Wikipedia’s page on <a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references">HTML entities</a>.</p>
+
+<h3 id="tables">Tables</h3>
+
+<p>To add a table, use three or more hyphens to create each column’s header, and use pipes to separate each column. For compatibility, you should also add a pipe on either end of the row.</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+</code></pre></div></div>
+
+<p>The rendered output looks like this</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>Text</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Cell widths can vary, as shown below. The rendered output will look the same.</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+</code></pre></div></div>
+
+<h3 id="line-breaks-within-table-cells">Line Breaks Within Table Cells</h3>
+
+<p>You can separate paragraphs within a table cell by using one or more <code class="language-plaintext highlighter-rouge">&lt;br&gt;</code> HTML tags.</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title |
+| Paragraph   | First paragraph. <span class="nt">&lt;br&gt;&lt;br&gt;</span> Second paragraph. |
+</code></pre></div></div>
+
+<p>The rendered output looks like this</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>First paragraph. <br /><br /> Second paragraph.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="fenced-code-blocks">Fenced Code Blocks</h3>
+
+<p>The basic Markdown syntax allows you to create code blocks by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you’ll use three backticks (```) or three tildes on the lines before and after the code block. The best part? You don’t have to indent any lines!</p>
+
+<p>It’s also good practice, to say what the code type is at the start of the block.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ~~~json
+ {
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25 
+ }
+ ~~~
+</code></pre></div></div>
+
+<p>The rendered output looks like this</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"firstName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"John"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"lastName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Smith"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"age"</span><span class="p">:</span><span class="w"> </span><span class="mi">25</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="table-of-contents">Table of Contents</h3>
+<p>Some Markdown applications like Markdeep can automatically generate a table of contents (also referred to as a toc) from your headings, but this isn’t a feature provided by all Markdown applications. However, if your Markdown application supports heading IDs, you can create a table of contents for your Markdown file using a list and some links.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#### Table of Contents
+
+* [Underline](#underline)
+* [Indent](#indent)
+* [Center](#center)
+* [Color](#color)
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<h4 id="table-of-contents-1">Table of Contents</h4>
+
+<ul>
+  <li><a href="#underline">Underline</a></li>
+  <li><a href="#indent">Indent</a></li>
+  <li><a href="#center">Center</a></li>
+  <li><a href="#color">Color</a></li>
+</ul>
+
+<h3 id="code-spans">Code spans</h3>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sb">`&lt;code&gt;`</span> spans are delimited by backticks.
+You can include literal backticks like <span class="sb">`` `this` ``</span>.
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;code&gt;</code> spans are delimited by backticks.
+You can include literal backticks like <code class="language-plaintext highlighter-rouge">`this`</code>.</p>
+
+<h3 id="horizontal-rules">Horizontal rules</h3>
+
+<p>Three or more dashes</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">---
+</span></code></pre></div></div>
+
+<p>Horizontal rules
+Three or more dashes</p>
+
+<hr />
+
+<h3 id="manual-line-breaks">Manual line breaks</h3>
+
+<p>End a line with two or more spaces</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Roses are red,  
+Violets are blue.
+</code></pre></div></div>
+
+<p>Roses are red,<br />
+Violets are blue.</p>
+
+<h3 id="text-colors-and-fonts">Text colors and fonts</h3>
+
+<p>The following might throw up a few <a href="https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033">errors</a> in your Markup editor depending on what you’re useing, it’s not stickly speaking pure Markup it contains html elements. But it will render correctly and look fine, as you can see below.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In his beard lived three <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"color:red"</span><span class="nt">&gt;</span>cardinals<span class="nt">&lt;/span&gt;</span>.
+In his beard lived three cardinals.
+</code></pre></div></div>
+
+<p>In his beard lived three <span style="color:red">cardinals</span>.
+In his beard lived three cardinals.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I am in <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"font-family:Papyrus; font-size:4em;"</span><span class="nt">&gt;</span>LOVE!<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<p>I am in <span style="font-family:Papyrus; font-size:4em;">LOVE!</span></p>
+
+<h3 id="videos">Videos</h3>
+
+<p>If your Markdown application supports HTML, you should be able to embed a video in your Markdown file by copying and pasting the HTML code provided by a video website like YouTube or Vimeo. If your Markdown application doesn’t support HTML, you can’t embed a video, but you can come close by adding an image and a link to the video. You could do this with practically any video on any video service.</p>
+
+<p>Since YouTube makes this easy, we’ll use them as an example. Take this video, for instance: <code class="language-plaintext highlighter-rouge">https://youtu.be/KMixoNTvtrA</code>. The last part of the URL (KMixoNTvtrA) is the ID of the video. We can take that ID and put it in the following template</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[![Image alt text](https://img.youtube.com/vi/KMixoNTvtrA/0.jpg)](https://www.youtube.com/watch?v=KMixoNTvtrA)
+</code></pre></div></div>
+
+<p>YouTube automatically generates an image for every video (<code class="language-plaintext highlighter-rouge">https://img.youtube.com/vi/KMixoNTvtrA/0.jpg</code>), so we can use that and link the image to the video on YouTube. After we replace the image alt text and add the ID of the video, our example looks like this:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[![I Wish I was a Girl - Wasted Youth](https://img.youtube.com/vi/IQ5yU0eQzig/0.jpg)](https://youtu.be/IQ5yU0eQzig
+</code></pre></div></div>
+
+<p>The rendered output looks like this</p>
+
+<p><a href="https://youtu.be/IQ5yU0eQzig"><img src="https://img.youtube.com/vi/IQ5yU0eQzig/0.jpg" alt="Motorhead - Ace of Spades - O2 Glasgow 2002" /></a></p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>The Markdown Reference is <a href="https://www.markdownguide.org/cheat-sheet/">here</a></li>
+  <li>The <a href="https://itopaloglu83.github.io/Jekyll-Markdown-Cheat-Sheet/">Jekyll-Markdown-Cheat-Sheet</a></li>
+  <li>The standard <a href="https://www.lipsum.com/">Lorem Ipsum passage</a> and some history surrounding it</li>
+</ul>]]></content><author><name>Billy Dickson</name></author><category term="jekyll" /><category term="Computing" /><summary type="html"><![CDATA[This page is intended as a quick reference to help me while I’m writing my blogs, for more complete information see John Gruber’s original specification.]]></summary></entry><entry><title type="html">Working with Jekyll</title><link href="http://localhost:4000/jekyll/computing/2022/08/17/Working-with-jekyll.html" rel="alternate" type="text/html" title="Working with Jekyll" /><published>2022-08-17T00:00:00+01:00</published><updated>2022-08-17T00:00:00+01:00</updated><id>http://localhost:4000/jekyll/computing/2022/08/17/Working-with-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/computing/2022/08/17/Working-with-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+
+<span class="o">=&gt;</span> <span class="n">prints</span> <span class="s1">'Hi, Tom'</span> <span class="n">to</span> <span class="no">STDOUT</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+<p>This is more of a reminder for me, but feel free to use them if it’s helpful. I’m currently in the process of converting my old Wordpress site to Jekyll.</p>
+
+<h4 id="useful-markdown-and-jekyll-links">Useful Markdown and Jekyll Links</h4>
+
+<ul>
+  <li><a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide">Quick-Start Guide for Minimal Mistakes</a> my current theme.</li>
+  <li>Handy <a href="https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/">Minimum Mistakes Cheatsheet</a> that should help me as I’m updating my blog.</li>
+  <li>Wordpress addon called <a href="https://wordpress.org/plugins/jekyll-exporter/">Wordpress Jekyll Explorer</a> that I’m going to try and use to export my old Wordpress Site to a Jekyll.
+ Here is a helpful links that describe a number of options for converting WordPress to <a href="https://talk.hyvor.com/blog/migrate-from-wordpress-to-jekyll">Jekyll</a>. I’ll update these link as then try them, at the moment they are a reminder to myself.</li>
+  <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> for Github and Jekyll
+-Install instructions for <a href="https://beatletech.com/2020/08/16/jekyll-and-algolia-search-integration">Algolia search integration</a> for my Jekyll Website.</li>
+  <li><a href="https://community.algolia.com/jekyll-algolia/getting-started.html">Jekyll-Algolia</a> Algolia Community Website for Jekyll
+-Personal Website of Peter Wills where I found some handy tutorials and tips on using <a href="http://www.pwills.com/posts/2017/12/20/website.html">Minimal Mistakes</a></li>
+  <li>Personal Website of Renato Golia where I found some handy tutorials and tips on using <a href="https://renatogolia.com/">Minimal Mistakes</a></li>
+  <li>Shanto Roy’s <a href="https://shantoroy.com/">Minimal Mistakes</a> Website, <a href="https://shantoroy.com/jekyll/google-analytics-in-jekyll-minimal-mistakes-blog-theme/">here</a> I found some good instuctions on setting up google analytics.</li>
+</ul>]]></content><author><name>Billy Dickson</name></author><category term="jekyll" /><category term="Computing" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Removing exif data using Linux exiftool</title><link href="http://localhost:4000/computing/linux/homelab/2022/08/10/Linux-Command-line-tools.html" rel="alternate" type="text/html" title="Removing exif data using Linux exiftool" /><published>2022-08-10T14:37:08+01:00</published><updated>2022-08-10T14:37:08+01:00</updated><id>http://localhost:4000/computing/linux/homelab/2022/08/10/Linux-Command-line-tools</id><content type="html" xml:base="http://localhost:4000/computing/linux/homelab/2022/08/10/Linux-Command-line-tools.html"><![CDATA[<h3 id="how-to-remove-exif-data-from-photos">How to remove exif data from photos</h3>
+
+<p>Here’s a handy linux command line tool that rcan remove all exif data from your photographs. This one I use to remove the exif data from my photographs before I publish them to my website.</p>
+
+<p>These instructions are aimed at people who use linux as their daily driver (like myself), if you use a debian based distribution, then all the instructions below will apply.</p>
+
+<p>If you use a distribution not based on debian, then the install syntax will vary accordingly.</p>
+
+<p>Removing EXIF is a smart idea, particularly if you’re especially privacy-conscious however, your biggest concern is most likely the geolocation information.</p>
+
+<h4 id="install-the-appication">Install the appication</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>exiftool
+</code></pre></div></div>
+
+<h4 id="show-the-metadata">Show the metadata</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool photo.jpg
+</code></pre></div></div>
+
+<h4 id="show-metedata-for-all-jpg-files-note-the-extension-is-case-sensitive">Show metedata for all *.jpg files. Note: The extension is case sensitive</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool <span class="nt">-ext</span> jpg <span class="nb">.</span>
+</code></pre></div></div>
+
+<h4 id="same-as-above-but-include-sub-directories">Same as above, but include sub directories</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool <span class="nt">-r</span> <span class="nt">-ext</span> jpg <span class="nb">.</span>
+</code></pre></div></div>
+
+<h4 id="remove-all-metadata">Remove all metadata</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool <span class="nt">-all</span><span class="o">=</span> <span class="nt">-overwrite_original</span> photo.jpg
+</code></pre></div></div>
+
+<h4 id="remove-all-metadata-of-all-jpg-files-in-the-current-directory">Remove all metadata of all *.jpg files in the current directory</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool <span class="nt">-all</span><span class="o">=</span> <span class="nt">-overwrite_original</span> <span class="nt">-ext</span> jpg <span class="nb">.</span>
+</code></pre></div></div>
+
+<h4 id="does-the-same-as-above-but-includes-subdirectories">Does the same as above, but includes subdirectories</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool <span class="nt">-all</span><span class="o">=</span> <span class="nt">-r</span> <span class="nt">-overwrite_original</span> <span class="nt">-ext</span> jpg <span class="nb">.</span>
+</code></pre></div></div>
+
+<h4 id="remove-all-gps-metadata-of-jpg-files-in-the-current-directory">Remove all GPS metadata of *.jpg files in the current directory</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool <span class="nt">-gps</span>:all<span class="o">=</span> <span class="k">*</span>.jpg
+</code></pre></div></div>
+
+<h3 id="references">References</h3>
+
+<ul>
+  <li><a href="https://linuxnightly.com/how-to-remove-exif-data-via-linux-command-line/">Linux Nightly</a> online Linux Magazine.</li>
+  <li>Removing exif data using <a href="https://www.howtogeek.com/203592/what-is-exif-data-and-how-to-remove-it/">other operating systems</a></li>
+</ul>]]></content><author><name>Billy Dickson</name></author><category term="Computing" /><category term="Linux" /><category term="Homelab" /><summary type="html"><![CDATA[How to remove exif data from photos]]></summary></entry><entry><title type="html">Working out your heart rate zones</title><link href="http://localhost:4000/running/2022/07/09/Training-to-heart-rate.html" rel="alternate" type="text/html" title="Working out your heart rate zones" /><published>2022-07-09T00:00:00+01:00</published><updated>2022-07-09T00:00:00+01:00</updated><id>http://localhost:4000/running/2022/07/09/Training-to-heart-rate</id><content type="html" xml:base="http://localhost:4000/running/2022/07/09/Training-to-heart-rate.html"><![CDATA[<h3 id="heart-rate-zones">Heart Rate Zones</h3>
+
+<p>To calculate your heart rate zones you will need two numbers, and basic math skills:</p>
+
+<ol>
+  <li>Your resting heart rate</li>
+  <li>Your maximum heart rate</li>
+</ol>
+
+<h3 id="resting-heart-rate">Resting heart rate</h3>
+
+<h4 id="measuring-your-resting-heart-rate">Measuring your resting heart rate</h4>
+
+<p>The best time to take your pulse is before you get up in the morning. To get an accurate resting heart rate, take a readings every morning for 3 mornings and divide by 3 to give you an average. You will of course need a watch with a second hand to accomplish this.</p>
+
+<p>Also, as my better looking half just pointed out, you can also use your mobile phone, most of which come with a clock with the ability to measure time.</p>
+
+<p>Your heart rate is the number of times your heart beats per minute (bpm). A normal heart rate is between 60 and 100 bpm while you’re resting.</p>
+
+<p><img src="/assets/images/checking-your-pulse-210x137.png" alt="Heart Rate" title="Taking Heart Rate Graphic" /></p>
+
+<h4 id="low-resting-heart-rate-bradycardia">Low resting heart rate (bradycardia)</h4>
+
+<p>A low heart rate is classified as a heart rate less than 60 bpm. The medical term for a heart rate of around or less than this is bradycardia.</p>
+
+<p>For some people such as athletes, bradycardia doesn’t pose a health risk. But if you have a low heart rate and are experiencing symptoms like fainting, fatigue and dizziness then you should make an appointment with your GP.</p>
+
+<h4 id="working-out-you-maximum-heart-rate">Working out you maximum heart rate</h4>
+
+<p>The Karvonen formula is one of the bests that can be used to define your heart rate zones and anaerobic threshold. It is based on the heart rate reserve, so it takes into account both your resting heart rate and maximum heart rate. Therefore it gives a much better result than the formulas that use only the maximum heart rate.</p>
+
+<p>Calculating your heart rate zones using the Karvonen formula is very easy and it only takes a few minutes. To use this formula you need to know your resting and maximum heart rates.</p>
+
+<p>After the calculation you will have your heart rate zones and anaerobic threshold that you can apply to your training — the exact meaning and application of the zones and threshold varies with every training plan.</p>
+
+<blockquote>
+  <p>The bottom line: No matter what type of runner you are–beginner, intermediate, or advanced–a heart-rate monitor will help you train more effectively. We’ll show you how. For years, everyone (including us) has been telling you that the best way to find your maximum heart rate (MHR) is to subtract your age from 220. Sorry about that.
+Turns out that’s not the most reliable method, at least not for healthy, fit individuals like the readers of Runner’s World. For most of you, two newer formulas will prove far more accurate:</p>
+</blockquote>
+
+<p><strong>(Formula A)</strong> MHR = 208 - (0.7 × age)</p>
+
+<p><strong>(Formula B)</strong> MHR = 205 - (.5 x your age)</p>
+
+<blockquote>
+  <p>A small group of Runner’s World staffers recently tested these two formulas, and reached the following conclusions. Both seem to work almost equally well for runners under The HUNT formula (men and women who are active): 211 - (0.64 x age). For runners over 40, formula (B) appears to be more accurate. We now believe that (B) is the single best formula for predicting maximum heart rate, and we’re adopting it as our Runner’s World standard.</p>
+</blockquote>
+
+<p>Below is a table of Maximum Heart Rate’s using <strong>(Formula A)</strong> and <strong>(Formula B)</strong> by age, please feel free to use it if you don’t currently know your Maximum Heart Rate.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Age         (Formula A)         (Formula B)
+20 years    MHR = 194 (BPM)     HMR = 195 (BPM)
+25 years    MHR = 190 (BPM)     MHR = 192 (BPM)
+30 years    MHR = 187 (BPM)     MHR = 190 (BPM)
+35 years    MHR = 183 (BPM)     MHR = 187 (BPM)
+40 years    MHR = 180 (BPM)     MHR = 185 (BPM)
+45 years    MHR = 176 (BPM)     MHR = 182 (BPM)
+50 years    MHR = 173 (BPM)     MHR = 180 (BPM)
+55 years    MHR = 169 (BPM)     MHR = 177 (BPM)
+60 years    MHR = 166 (BPM)     MHR = 175 (BPM)
+65 years    MHR = 162 (BPM)     MHR = 172 (BPM)
+70 years    MHR = 159 (BPM)     MHR = 167 (BPM)
+</code></pre></div></div>
+
+<p><strong>Formula B</strong> in extremely accurate at 177 BPM).</p>
+
+<p>As you can see from my <a href="https://connect.garmin.com">Garmin Connect</a> account, which shows an average of 176 (BPM) over a year, see graphic below.</p>
+
+<p>If you have a <a href="https://connect.garmin.com/">garmin connect</a> account, you can find this information under <strong>Reports –&gt; Maximum Heart Rate</strong>.</p>
+
+<p><img src="/assets/images/Garmin_Maximum_Heart_Rate.png" alt="Garmin Maximum Heart Rate" title="Maximum Heart Rate" /></p>
+
+<h4 id="putting-it-all-together">Putting It All Together</h4>
+
+<p>Using your resting heart rate and your maximum heart rate, you can work out your heart rate zones using heart rate reserve and the karvonen heart formula below.</p>
+
+<p>Alternatively, you can goto the website below, plug in your <strong>resting heart rate</strong> and your <strong>maximum heart rate</strong>, and it will work it out for you!</p>
+
+<p><a href="https://runandbeyond.com/calculator-karvonen/">Kavonen Heart Rate Calculator</a></p>
+
+<h4 id="heart-rate-reserve">Heart Rate Reserve</h4>
+
+<p>The Karvonen formula uses the heart rate reserve — this is a number, the size of the range between your resting heart rate and maximum heart rate. To calculate it all you need to do is to subtract the resting heart rate from the maximum heart rate.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    HRreserve = HRmax - HRresting
+</code></pre></div></div>
+
+<p>You need to calculate this number as it is used to calculate the heart rate zones.</p>
+
+<h4 id="target-heart-rate">Target Heart Rate</h4>
+
+<p>To calculate the heart rate zones all you need to do is to add your resting heart rate to a certain percentage the heart rate reserve. This is the formula:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    HRtarget = HRreserve x intensity% + HRresting
+</code></pre></div></div>
+
+<p>The intensity number is defined by the Karvonen Formula.</p>
+
+<h4 id="karvonen-heart-rate-zones">Karvonen Heart Rate Zones</h4>
+
+<p>The Karvonen formula defines the following five zones, using two numbers two define each zone — the lower and the higher end of it:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Zone1: 50% – 60%
+    Zone2: 60% – 70%
+    Zone3: 70% – 80%
+    Zone4: 80% – 90%
+    Zone5: 90% – 100%
+</code></pre></div></div>
+
+<p>The first three zones are aerobic, the last two are anaerobic. Your anaerobic threshold is around the 80% intensity.</p>
+
+<p>After you apply these intensity numbers to the target heart rate formula you will have your heart rate zones.</p>
+
+<h3 id="example">Example</h3>
+
+<p>I have measured my resting heart rate a few months ago. so I’ll use those numbers to show you an example, I’ll be using <strong><em>(Formula B)</em></strong> as it’s the most accurate for my age (55). Don’t forget that everyone has different resting and maximum heart rates, so use your own resting heart rate and maximum heart rate when doing the calculations!</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Resting heart rate - 47
+    Maximum heart rate - 177
+</code></pre></div></div>
+
+<p>Calculating the heart rate reserve:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    HRreserve = 177 - 47 = 130
+</code></pre></div></div>
+
+<p>Calculating the zones:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    130 x 50%  + 47  = 67  + 47 = 114
+    130 x 60%  + 47  = 78  + 47 = 125    
+    130 x 70%  + 47  = 91  + 47 = 138
+    130 x 80%  + 47  = 104 + 47 = 151
+    130 x 90%  + 47  = 117 + 47 = 164
+    130 x 100% + 47  = 130 + 47 = 177
+</code></pre></div></div>
+
+<p>All I had to do is to apply the heart rate reserve, the intensity and the resting heart rate to the formula. The only number that changes is the intensity.</p>
+
+<p>And now the heart rate zones can be defined:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Zone1: 114-125
+    Zone2: 125-138
+    Zone3: 138-151
+    Zone4: 151-164
+    Zone5: 164-177
+</code></pre></div></div>
+
+<h4 id="workout-as-a-percentage-of-mhr">Workout as a percentage of MHR</h4>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Easy run and long run 65-75%
+    Tempo run 87-92%
+    Interval repeats 95-100%
+</code></pre></div></div>
+
+<h4 id="race-distance-heart-rate">Race Distance Heart Rate</h4>
+
+<p>Bare in mind that these are only approximations, your heart rate will vary with because of lack of sleep, dehydration and over training alsos external factors such as weather (sunny or freezing conditions).</p>
+
+<p>So although heart rate is good to know and can be helpful to you while your running, my best advise to you, is to just enjoy the race and not to fixate too much on it (use it as a guide).</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    5-K             95-97%
+    10-K            92-94%
+    Half-marathon   85-88%
+    Marathon        80-85%
+</code></pre></div></div>
+
+<blockquote>
+  <p><a href="https://www.runnersworld.com/training/a20823643/runners-learn-how-to-use-your-heart-rate-monitor/">Fern Oliner</a> had been a runner for more than 25 years when she experienced a breakthrough in her performance. It happened at age 59, during a challenging half-marathon.</p>
+</blockquote>
+
+<h3 id="references">References</h3>
+
+<ol>
+  <li><a href="https://www.runnersworld.com/training/a20823643/runners-learn-how-to-use-your-heart-rate-monitor/?utm_source=pocket_mylist">How To Use A Heart Rate Monitor</a></li>
+  <li><a href="https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates?utm_source=pocket_mylist">Target Rate Heart Rates Charts</a></li>
+  <li><a href="https://www.wikihow.com/Calculate-Your-Target-Heart-Rate">How to Calculate Your Target Heart Rate</a></li>
+  <li><a href="https://runandbeyond.com/karvonen-heart-rate/">The Karvonen Formula</a></li>
+  <li><a href="https://runandbeyond.com/calculator-karvonen/">Karvonen Heart Rate Zones Calculator</a></li>
+  <li><a href="https://www.polar.com/blog/calculate-maximum-heart-rate-running/">Polar Maximum Heart Rate Calculator</a></li>
+  <li><a href="https://www.verywellfit.com/maximum-heart-rate-1231221">Understanding your Maximum Heart Rate</a></li>
+</ol>]]></content><author><name>Billy Dickson</name></author><category term="Running" /><summary type="html"><![CDATA[Heart Rate Zones]]></summary></entry></feed>

@@ -4,6 +4,17 @@ title:  "Working out your heart rate zones"
 date:   2022-07-09
 categories: Running
 
+gallery1:
+  - url:
+    image_path: /assets/images/checking-your-pulse-210x137.png       
+    alt: "Checking your Pulse"
+    title: "Checking your Pulse"
+gallery2:
+  - url:
+    image_path: /assets/images/Garmin_Maximum_Heart_Rate.png      
+    alt: "Garmin maximum Heart Rate"
+    title: "Garmin maximum Heart Rate"
+
 toc: true
 toc_label: # default : Content
 toc_icon:  # corresponding Font Awesome icon name without the "fa" prefix
@@ -27,7 +38,7 @@ Also, as my better looking half just pointed out, you can also use your mobile p
 
 Your heart rate is the number of times your heart beats per minute (bpm). A normal heart rate is between 60 and 100 bpm while you’re resting.
 
-![Heart Rate](/assets/images/checking-your-pulse-210x137.png "Taking Heart Rate Graphic")
+{% include gallery id="gallery1" code="full" %}
 
 #### Low resting heart rate (bradycardia)
 
@@ -75,7 +86,7 @@ As you can see from my [Garmin Connect](https://connect.garmin.com) account, whi
 
 If you have a [garmin connect](https://connect.garmin.com/) account, you can find this information under __Reports --> Maximum Heart Rate__.
 
-![Garmin Maximum Heart Rate](/assets/images/Garmin_Maximum_Heart_Rate.png "Maximum Heart Rate")
+{% include gallery id="gallery2" code="full" %}
 
 #### Putting It All Together
 
