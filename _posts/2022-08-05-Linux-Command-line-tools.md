@@ -3,7 +3,6 @@ layout: single
 title:  "Removing exif data using Linux exiftool"
 date:   2022-08-10 13:37:08 +0000
 categories: Computing Linux Homelab
-publish: true
 ---
 
 ### How to remove exif data from photos

@@ -3,7 +3,6 @@ layout: single
 title:  "Installing a Shelly 1L & Switch (Sons Room)"
 date: 2022-09-17
 categories: Computing IOT Hubitat
-publish: true
 
 gallery1:
   - url: /assets/images/Matthews-Room-IOT/gallery1/PXL_20220917_132533629.jpg
