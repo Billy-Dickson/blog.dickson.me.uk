@@ -29,23 +29,23 @@ gallery2:
     title: "Shelly 1L Wiring Diagram"
 
 gallery3:
-  - url: /assets/images/Matthews-Room-IOT/gallery3/Power_Default_Mode.png
+  - url: 
     image_path: /assets/images/Matthews-Room-IOT/gallery3/Power_Default_Mode.png
     alt: "Power On Default Mode"
     title: "Power On Default Mode"
-  - url: /assets/images/Matthews-Room-IOT/gallery3/Button_Type.png
+  - url: 
     image_path: /assets/images/Matthews-Room-IOT/gallery3/Button_Type.png
     alt: "Button Type - Momentary"
     title: "Button Type - Momentary"
-  - url: /assets/images/Matthews-Room-IOT/gallery3/Device_Name.png
+  - url: 
     image_path: /assets/images/Matthews-Room-IOT/gallery3/Device_Name.png
     alt: "Device Name"
     title: "Device Name"
-  - url: /assets/images/Matthews-Room-IOT/gallery3/Eco_Mode_Off.png
+  - url: 
     image_path: /assets/images/Matthews-Room-IOT/gallery3/Eco_Mode_Off.png
     alt: "Eco Mode Off"
     title: "Eco Mode Off"
-  - url: /assets/images/Matthews-Room-IOT/gallery3/Power_Consumption.png
+  - url: 
     image_path: /assets/images/Matthews-Room-IOT/gallery3/Power_Consumption.png
     alt: "Power Consumption of the Bulb"
     title: "Power Comsumption of the Bulb"
@@ -65,7 +65,7 @@ gallery4:
     title: "Hubitat - Matthews Light Channel 1"
   
 gallery5:
-  - url:
+  - url: /assets/images/Matthews-Room-IOT/Switch_Programming.png
     image_path: /assets/images/Matthews-Room-IOT/Switch_Programming.png
     title: "Push Button Programming"
     alt: "Push Button Programming"
@@ -117,9 +117,7 @@ I've also found that if your using cheaper LED bulbs that flicker, if you switch
 I already have a Hubitat Hub, and have had it for number of year.  
 But for reference, the hub as of today, costs £135 via [Vesternet](https://www.vesternet.com/products/hubitat-elevation-hub-uk?currency=GBP&variant=31600222273651&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&utm_campaign=17611366711&utm_source=x&utm_medium=cpc&utm_content=&utm_term=&ad_id=&gclid=CjwKCAjw4JWZBhApEiwAtJUN0Blc53XY_VBTqGDuYui_uCyLEjYaSmtQvOFo-mGPgEgLx80gNukpzxoCnUwQAvD_BwE).  
 
-### Hubitat Specific
-
-#### Add Device
+### Hubitat Specific (Add Shelly Device)
 
 Open up your Hubitat Hub in a browser of you choice.
 
@@ -135,7 +133,7 @@ Select Devices
 8. Give your new Switch a name
 9. **Select a room for your new Switch:**
 10. Click on **View device details**
-11. Add the **IP address** of your to "Shelly IP address"
+11. Add the **IP address** of your device to **Shelly IP address**
 12. Click on **Save Preferences**
 13. Scoll down to **Device Information**
 14. If needed, amend or change the **Device Name**
@@ -143,13 +141,11 @@ Select Devices
 16. If needed, assign it to a room.
 17. Click on **Save Device**
 18. Scroll down to Component Devices and click on the newly created link to the right.
-19. If you've completed the steps above correctly, you should be able to click on the On and Off buttons and
-
-{% include gallery id="gallery4" layout="half" caption="Gallery of Shelly Wall Switch Installation" %}
+19. If you've completed the steps above correctly, you should be able to click on the On and Off buttons and the your light(s) should switch on and off.
 
 Here's the programming for the my son's button on his bedside table, it's fairly basic as it's only switching on and off.
 
-{% include gallery id="gallery5"  caption="Programming for a simple button" %}
+{% include gallery id="gallery5" caption="Shelly 1L Wiring Diagram for No Neutral" %}
 
 ## References
 
