@@ -8,6 +8,12 @@ toc: true
 toc_label: # default : Content
 toc_icon:  # corresponding Font Awesome icon name without the "fa" prefix
 toc_sticky: true # enables sticky toc
+
+gallery:
+  - url:
+    image_path: /assets/images/about/Berlin_Marathon.jpg       
+    alt: "Berlin Marathon 2009"
+    title: "Berlin Marathon 2009"
 ---
 
 ### Occupation
@@ -40,6 +46,10 @@ Spending time with friend and socialising, playing pool, travelling and holidays
 
 #### Running and Fitness
 
+I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) running vest
+
+{% include gallery id="gallery" layout="" caption="Berlin Marathon 2009" %}
+
 #### IT, Web Technologies and Home Automation
 
 Web Technologies Such as HTML and CSS, Networking and Computer Technologies
@@ -54,7 +64,7 @@ I also have an interest in Smart Lighting and Smart Heating using a mobile appli
 
 #### Music
 
-I’ve got a pretty eclectic taste: 80’s Alternative, Goth, Metal to The Smiths, NIN, The Ramones, Bauhaus, Portishead, [Attrition UK](https://attritionuk.bandcamp.com/)to name but a few. I've played bass guitar in various bands when I was younger and still enjoy playing now and again, either on my own, or jamming with friends.
+I’ve got a pretty eclectic taste: 80’s Alternative, Goth, Metal to The Smiths, NIN, The Ramones, Bauhaus, Portishead, [Attrition UK](https://attritionuk.bandcamp.com/) to name but a few. I've played bass guitar in various bands when I was younger and still enjoy playing now and again, either on my own, or jamming with friends.
 
 My current favourites band at the moment are [Amyl and the Sniffers](https://www.amylandthesniffers.com/), feel free to check them out on Youtube if you have the time.
 
