@@ -38,6 +38,8 @@ Optimistic
 
 Spending time with friend and socialising, playing pool, travelling and holidays! keeping fit and going to the gym, tinkering about with new technology. I also enjoy reading, photography, Chinese, Tai, India and Italian food.
 
+#### Running and Fitness
+
 #### IT, Web Technologies and Home Automation
 
 Web Technologies Such as HTML and CSS, Networking and Computer Technologies
