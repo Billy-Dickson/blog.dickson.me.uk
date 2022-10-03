@@ -52,7 +52,7 @@ I also have an interest in Smart Lighting and Smart Heating using a mobile appli
 
 #### Music
 
-I’ve got a pretty eclectic taste: 80’s Alternative, Goth, Metal to The Smiths, NIN, The Ramones, Bauhaus, Portishead, to name but a few. I've played bass guitar in various bands when I was younger and still enjoy playing now and again, either on my own, or jamming with friends.
+I’ve got a pretty eclectic taste: 80’s Alternative, Goth, Metal to The Smiths, NIN, The Ramones, Bauhaus, Portishead, [Attrition UK](https://attritionuk.bandcamp.com/)to name but a few. I've played bass guitar in various bands when I was younger and still enjoy playing now and again, either on my own, or jamming with friends.
 
 My current favourites band at the moment are [Amyl and the Sniffers](https://www.amylandthesniffers.com/), feel free to check them out on Youtube if you have the time.
 

@@ -13,7 +13,7 @@ gallery1:
     image_path: /assets/images/Matthews-Room-IOT/gallery1/PXL_20220917_135222932.jpg
     alt: "Fitted Shelly Wall Switch"
     title: "Fitted Shelly Wall Switch"
-  - url: /assets/images/Matthews-Room-IOT/gallery1/PXL_20220917_140856681.jpg
+  - url: /assets/images/Matthews-Room-IOT/gallery1/PXL_20220917_140856681.jpg  
     image_path: /assets/images/Matthews-Room-IOT/gallery1/PXL_20220917_140856681.jpg        
     alt: "Shelly Frame for Wall Switch"
     title: "Shelly Frame for Wall Switch"
