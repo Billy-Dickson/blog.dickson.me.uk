@@ -19,18 +19,22 @@ gallery1:
     title: "Garage Door Switch"
   - url: /assets/images/Garage-Room-IOT/Front_Door_Switch_Wiring.jpg
     image_path: /assets/images/Garage-Room-IOT/Front_Door_Switch_Wiring.jpg
-    alt: "Garage Door Switch"
-    title: "Garage Door Switch"
+    alt: "Garage Door Wiring"
+    title: "Garage Door Wiring"
   - url: /assets/images/Garage-Room-IOT/Philips_Hue_Motion_Sensor.jpg
     image_path: /assets/images/Garage-Room-IOT/Philips_Hue_Motion_Sensor.jpg
-    alt: "Motion Sensor"
-    title: "Motion Sensor"
+    alt: "Hue Motion Sensor"
+    title: "Hue Motion Sensor"
 gallery2:
   - url: /assets/images/Garage-Room-IOT/Garage_Lights.jpg
     image_path: /assets/images/Garage-Room-IOT/Garage_Lights.jpg
     alt: "Garage Lights"
     title: "Garage Lights"
-
+gallery3:
+  - url: /assets/images/Garage-Room-IOT/Shelly-1L-two-switches.png
+    image_path: /assets/images/Garage-Room-IOT/Shelly-1L-two-switches.png
+    alt: "Wiring Diagram - 2 Switches"
+    title: "Wiring Diagram - 2 Switches"
 
 ---
 
