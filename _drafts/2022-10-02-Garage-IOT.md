@@ -31,7 +31,7 @@ gallery2:
     alt: "Garage Lights"
     title: "Garage Lights"
 gallery3:
-  - url: /assets/images/Garage-Room-IOT/Shelly-1L-two-switches.png
+  - url: 
     image_path: /assets/images/Garage-Room-IOT/Shelly-1L-two-switches.png
     alt: "Wiring Diagram - 2 Switches"
     title: "Wiring Diagram - 2 Switches"
@@ -51,10 +51,22 @@ I now have the ability to contol my garage florescent light strips by voice usin
 |Philips Hue [Motion Sensor](https://amzn.eu/d/9HBs1sy)| £39:99 |
 |**Total Price** | **£56:99** |
 
-Programming the Hubitat to use Rules Machine instead of Simple Rules, as this allows me to program TTS (Text To Speech) so we know if anyone has opened the garage door from the Living Rooms Nest Hub.
-
 ### Installation Photos
 
 {% include gallery id="gallery1" layout="third" caption="Gallery of switch wiring" %}
 
 {% include gallery id="gallery2" layout="quarter" caption="Florescent Lights" %}
+
+### Wiring Diagram (No Neutral)
+
+Thankfully, as I'm  using florescent lights, the current draw is more than 20W, so I don't have to use a [Shelly Bypass](https://smarthomeshopuk.com/products/shelly-bypass) to power the Shelly 1L. I'm using 2 switches to turn the lights on and off, so the wiring diagram is slightly different from what you would normally see.
+
+{% include gallery id="gallery3" layout="" caption="Florescent Lights" %}
+
+### Future Plans
+
+At some point, I will have to replace the the florecent tubes and fittings (probably when they fail) as the regulation surronding them have changed so you won't be able to purchase them going forward.
+
+[Halogen light bulbs will be banned from September 2021 with fluorescent light bulbs to follow, cutting emissions and saving consumers on their energy bills](https://www.gov.uk/government/news/end-of-halogen-light-bulbs-spells-brighter-and-cleaner-future)
+
+Programming the Hubitat to use Rules Machine instead of Simple Rules, as this allows me to program TTS (Text To Speech) so we know if anyone has opened the garage door from the Living Rooms Nest Hub.
