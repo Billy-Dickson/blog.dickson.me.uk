@@ -46,7 +46,7 @@ Spending time with friend and socialising, playing pool, travelling and holidays
 
 #### Running and Fitness
 
-I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) running vest
+I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
 
 {% include gallery id="gallery" layout="" caption="Berlin Marathon 2009" %}
 
