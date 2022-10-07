@@ -25,16 +25,44 @@ gallery1:
     image_path: /assets/images/Garage-Room-IOT/Philips_Hue_Motion_Sensor.jpg
     alt: "Hue Motion Sensor"
     title: "Hue Motion Sensor"
+
 gallery2:
   - url: /assets/images/Garage-Room-IOT/Garage_Lights.jpg
     image_path: /assets/images/Garage-Room-IOT/Garage_Lights.jpg
     alt: "Garage Lights"
     title: "Garage Lights"
+
 gallery3:
   - url: 
     image_path: /assets/images/Garage-Room-IOT/Shelly-1L-two-switches.png
     alt: "Wiring Diagram - 2 Switches"
     title: "Wiring Diagram - 2 Switches"
+
+gallery4:
+  - url: 
+    image_path: /assets/images/Garage-Room-IOT/Screenshot_20221005-122343.png
+    alt: "Shelly 1L Garage"
+    title: "Shelly 1L Garage"
+  - url: 
+    image_path: /assets/images/Garage-Room-IOT/Screenshot_20221005-122358.png
+    alt: "Wifi Mode - Client"
+    title: "Wifi Mode - Client"
+  - url: 
+    image_path: /assets/images/Garage-Room-IOT/Screenshot_20221005-122413.png
+    alt: "Power on Default"
+    title: "Power on Default"
+  - url: 
+    image_path: /assets/images/Garage-Room-IOT/Screenshot_20221005-122421.png
+    alt: "Button Type - Toggle"
+    title: "Button Type - Toggle"
+  - url: 
+    image_path: /assets/images/Garage-Room-IOT/Screenshot_20221005-122429.png
+    alt: "Device Name"
+    title: "Device name"
+  - url: 
+    image_path: /assets/images/Garage-Room-IOT/Screenshot_20221005-122443.png
+    alt: "Eco Mode - On"
+    title: "Eco Mode - On"
 
 ---
 
@@ -61,7 +89,41 @@ I now have the ability to contol my garage florescent light strips by voice usin
 
 Thankfully, as I'm  using florescent lights, the current draw is more than 20W, so I don't have to use a [Shelly Bypass](https://smarthomeshopuk.com/products/shelly-bypass) to power the Shelly 1L. I'm using 2 switches to turn the lights on and off, so the wiring diagram is slightly different from what you would normally see.
 
-{% include gallery id="gallery3" layout="" caption="Florescent Lights" %}
+{% include gallery id="gallery3" layout="" caption="Wiring Diagram" %}
+
+### Installation Video
+
+Here's are some instructions from Shelly, that may help you connect your new Shelly 1L to your home network. You can skip to 7 minutes 20 seconds where it shows you how to connect, I don't use cloud control, I use local control via Hubitat. But feel free to use Shelly Cloud control if it's the way your planning to control your Shelly switch(s).
+
+{% include video id="stfVqXX392o" provider="youtube" %}
+
+{% include gallery id="gallery4" layout="half" caption="My setting of the Shelly 1L via IP address" %}
+
+### Hubitat Specific (Add Shelly Device)
+
+Open up your Hubitat Hub in a browser of you choice.
+
+Select Devices
+
+1. Click on **Add Device**
+2. Click on **Brand**
+3. Type **Shelly**
+4. Click on **Shelly**
+5. Click on **Switch**
+6. Select Add **Shelly 1**
+7. Select **Install Device**
+8. Give your new Switch a name
+9. **Select a room for your new Switch:**
+10. Click on **View device details**
+11. Add the **IP address** of your device to **Shelly IP address**
+12. Click on **Save Preferences**
+13. Scoll down to **Device Information**
+14. If needed, amend or change the **Device Name**
+15. If needed, amend or change the **Device Label**
+16. If needed, assign it to a room.
+17. Click on **Save Device**
+18. Scroll down to Component Devices and click on the newly created link to the right.
+19. If you've completed the steps above correctly, you should be able to click on the On and Off buttons and the your light(s) should switch on and off.
 
 ### Future Plans
 
@@ -70,3 +132,10 @@ At some point, I will have to replace the the florecent tubes and fittings (prob
 [Halogen light bulbs will be banned from September 2021 with fluorescent light bulbs to follow, cutting emissions and saving consumers on their energy bills](https://www.gov.uk/government/news/end-of-halogen-light-bulbs-spells-brighter-and-cleaner-future)
 
 Programming the Hubitat to use Rules Machine instead of Simple Rules, as this allows me to program TTS (Text To Speech) so we know if anyone has opened the garage door from the Living Rooms Nest Hub.
+
+## References
+
+* [Smart Home Shop UK](https://smarthomeshopuk.com/)  
+* UK based Youtube channel for IOT [Home Sight Tech](https://www.youtube.com/c/HomeSight/featured)  
+* Home Sight Tech [Webpage](http://homesight.tech/).  
+* Brian from Automate Your Home [Home Automations 101 - The Ultimate Guide to Build Better Automations](https://www.youtube.com/watch?v=c5MF3MnMmJw)
