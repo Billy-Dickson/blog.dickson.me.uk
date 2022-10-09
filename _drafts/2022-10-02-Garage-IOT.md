@@ -63,6 +63,11 @@ gallery4:
     image_path: /assets/images/Garage-Room-IOT/Screenshot_20221005-122443.png
     alt: "Eco Mode - On"
     title: "Eco Mode - On"
+gallery5:
+  - url: /assets/images/Garage-Room-IOT/Garage_Lights_Program.png
+    image_path: /assets/images/Garage-Room-IOT/Garage_Lights_Program.png
+    alt: "Garage Light Program"
+    title: "Garage Light Program"
 
 ---
 
@@ -125,13 +130,19 @@ Select Devices
 18. Scroll down to Component Devices and click on the newly created link to the right.
 19. If you've completed the steps above correctly, you should be able to click on the On and Off buttons and the your light(s) should switch on and off.
 
+I already have a Hubitat Hub, and have had it for number of year. But for reference, the hub as of today, costs £135 via [Vesternet](https://www.vesternet.com/products/hubitat-elevation-hub-uk?currency=GBP&variant=31600222273651&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&utm_campaign=17611366711&utm_source=x&utm_medium=cpc&utm_content=&utm_term=&ad_id=&gclid=CjwKCAjw4JWZBhApEiwAtJUN0Blc53XY_VBTqGDuYui_uCyLEjYaSmtQvOFo-mGPgEgLx80gNukpzxoCnUwQAvD_BwE).
+
+Here’s the Hubitat programming for the Garage, it’s fairly basic as it’s only switching on and off when the sensor triggers. For this one, I'm using the **Motion and Mood Lighting** App, at some point, I'm going to convert it to  **Rules Machine**, when I do, I'll update the page.
+
+{% include gallery id="gallery5" layout="" caption="Hubitat Programming for Florescent Lights with Motion Sensor" %}
+
 ### Future Plans
 
-At some point, I will have to replace the the florecent tubes and fittings (probably when they fail) as the regulation surronding them have changed so you won't be able to purchase them going forward.
+At some point, I will have to replace the the florecent tubes and fittings (probably when they fail) as the regulation surronding them have changed, so I won't be able to purchase them going forward.
 
 [Halogen light bulbs will be banned from September 2021 with fluorescent light bulbs to follow, cutting emissions and saving consumers on their energy bills](https://www.gov.uk/government/news/end-of-halogen-light-bulbs-spells-brighter-and-cleaner-future)
 
-Programming the Hubitat to use Rules Machine instead of Simple Rules, as this allows me to program TTS (Text To Speech) so we know if anyone has opened the garage door from the Living Rooms Nest Hub.
+In the future, I'll be programming the Hubitat to use **Rules Machine** instead of **Motion and Mood Lighting**, this will allows me to program TTS (Text To Speech) so we'll know if anyone has opened the garage door, at the Living Rooms Nest Hub will tell us.
 
 ## References
 
