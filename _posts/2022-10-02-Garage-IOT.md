@@ -138,7 +138,7 @@ Here’s the Hubitat programming for the Garage, it’s fairly basic as it’s o
 
 ### Future Plans
 
-At some point, I will have to replace the the florecent tubes and fittings (probably when they fail) as the regulation surronding them have changed, so I won't be able to purchase them going forward.
+At some point, I'll have to replace the the florecent tubes and fittings (probably when they fail), as the regulation surronding them have changed, so I won't be able to purchase them going forward.
 
 [Halogen light bulbs will be banned from September 2021 with fluorescent light bulbs to follow, cutting emissions and saving consumers on their energy bills](https://www.gov.uk/government/news/end-of-halogen-light-bulbs-spells-brighter-and-cleaner-future)
 
