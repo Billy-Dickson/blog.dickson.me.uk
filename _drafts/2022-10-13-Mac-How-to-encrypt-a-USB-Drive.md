@@ -2,7 +2,6 @@
 layout: single
 title:  "How to encrypt a USB drive in macOS"
 categories: Computing Homelab Mac
-publish: false
 
 gallery1:
   - url:
