@@ -1,7 +1,8 @@
 ---
 layout: single
-title:  "How to encrypt a USB drive in macOS"
+title:  "How to encrypt a USB drive using macOS"
 categories: Computing Homelab Mac
+date: 2022-10-13
 
 gallery1:
   - url:

@@ -20,7 +20,9 @@ gallery:
 
 I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, and I'll happily tell you all about it :wink:.
 
-Would I recommend working in Academia as of 2022, no probably not, these days it seems to be about "Sweating your assets", "Working Smarter", "Above and Beyond". Lips service is paid to "Work Life Balance" and "Mental Health", unfortunately it's only lip service. If its your first job in IT, I would definitely say "Yes" as you will learn a lot, but I wouldn't recommend staying longer than 2-3 years. I'm hoping this this changes in the future.
+Would I recommend working in Academia as of 2022, no probably not, these days it seems to be about "Sweating your assets", "Working Smarter", "Above and Beyond". Lips service is paid to "Work Life Balance" and "Mental Health", unfortunately it's only lip service.
+
+If its your first job in IT, I would definitely say "Yes" as you will learn a lot, but I wouldn't recommend staying longer than 2-3 years. I'm hoping this this changes in the future.
 
 I started my new job this year on 7th March 2022, It was definitely time for me to move on, and I'm glad I did.
 
