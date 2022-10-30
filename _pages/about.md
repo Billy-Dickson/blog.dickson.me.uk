@@ -4,16 +4,25 @@ title: "About Me"
 date: 2022-08-16
 permalink: /about/
 
-toc: true
-toc_label: # default : Content
-toc_icon:  # corresponding Font Awesome icon name without the "fa" prefix
-toc_sticky: true # enables sticky toc
+# toc: true
+# toc_label: # default : Content
+# toc_icon:  # corresponding Font Awesome icon name without the "fa" prefix
+# toc_sticky: false # enables sticky toc
 
-gallery:
+gallery1:
   - url:
     image_path: /assets/images/about/Berlin_Marathon.jpg       
     alt: "Berlin Marathon 2009"
     title: "Berlin Marathon 2009"
+gallery2:
+  - url: /assets/images/about/London_Marathon2010.jpg
+    image_path: /assets/images/about/London_Marathon2010.jpg
+    alt: "London Marathon 2010"
+    title: "London Marathon 2010"
+  - url: /assets/images/about/IMG_0011.JPG
+    image_path: /assets/images/about/IMG_0011.JPG
+    alt: "London Marathon 2010"
+    title: "London Marathon Certificate 2010"
 ---
 
 ### Occupation
@@ -50,7 +59,9 @@ Spending time with friend and socialising, playing pool, travelling and holidays
 
 I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
 
-{% include gallery id="gallery" layout="" caption="Berlin Marathon 2009" %}
+{% include gallery id="gallery1" layout="" caption="Berlin Marathon 2009" %}
+
+{% include gallery id="gallery2" layout="full" caption="London Marathon 2010" %}
 
 #### IT, Web Technologies and Home Automation
 

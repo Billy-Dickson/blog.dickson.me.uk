@@ -81,7 +81,7 @@ I now have the ability to contol his main light by voice using my [Google Nest M
 ### Parts List
 
 | Part | Price |
-|-|-|
+|-|-:|
 |[Shelly 1L](https://shellystore.co.uk/product/shelly-1l/) | £17:00 |
 |Shelly [Wall Switch](https://shop.shelly.cloud/shelly-wall-switch-1-white-wifi-smart-home-automation?search=switch#565) White| £9:00 |
 |Frame [for Shelly Wall Switch](https://shop.shelly.cloud/shelly-wall-frame-1-black-wifi-smart-home-automation#559)| £4:00  |
