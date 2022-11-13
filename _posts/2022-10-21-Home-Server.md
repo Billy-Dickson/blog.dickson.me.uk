@@ -175,7 +175,7 @@ Easy explanation thanks to  [Martin Lewis](https://www.moneysavingexpert.com/)
 
 1. Find its wattage (average)
 2. Know 1000W is a Kilowatt (kW)
-3. We pay roughly 18.31p per kW per hour (at the moment)
+3. I pay roughly 18.31p per kW per hour (at the moment), this will change after the fixed rate finishes.
 
 100W (a tenth of a kW) on for an hour is 1.83p an hour  
 24 hours would cost 1.83 x 24 = 44p per day  
