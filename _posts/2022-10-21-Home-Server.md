@@ -167,7 +167,7 @@ My [Plex Pass](https://support.plex.tv/articles/200288566-what-is-plex-pass/) [j
 
 ### Home Network (192.168.30.0/24 VLAN ID 10)
 
-This VLAN is used for our Windows 10/11 personal and work devices, printers and home server shares, Nothing can access this VLAN from the IOT network or the VPN network, you can of course access ports 80, 443 and 22 to the IOT and the VPN networks.
+This VLAN is used for our Windows 10/11 personal and work devices, printers and home server shares, Nothing can access this VLAN from the IOT network or the VPN network, you can of course access ports 80, 443 and 22 on the IOT and the VPN networks.
 
 ### How to calculate the cost of running a Home Server
 
