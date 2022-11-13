@@ -111,13 +111,13 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Beer lover, Runner (5K, 10K, Half and Full Marathon), IT Support Tech, IOT Junkie and Dad"
   location         : "Edinburgh, Scotland"
-  email            :
   github           : "Billy-Dickson"
   facebook         : "billy.dickson"
   twitter          : "BillyDickson4"
+  mastodon         : "@bill_dickson"
   instagram        : "billydickson157"
   linkedin         : "billydickson"
-
+  
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -137,7 +137,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.scot/@bill_dickson"
+      
 # Site Footer
 footer:
   links:
@@ -159,6 +162,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/billydickson157"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.scot/@bill_dickson"
 
 # Reading Files
 include:

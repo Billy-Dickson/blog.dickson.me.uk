@@ -1,10 +1,46 @@
 ---
 layout: single
-title:  "Current Home Server (Built in 2017)"
+title:  "Current Home Server"
 date: 2022-10-21
 categories: Computing Homelab Homeserver
 
 gallery1:
+  - url: /assets/images/2022-10-21-Home-Server/TrueNAS-Core-Plugins.png
+    image_path: /assets/images/2022-10-21-Home-Server/TrueNAS-Core-Plugins.png
+    alt: "Running - TrueNAS Core Plugins"
+    title: "Running TrueNAS Core Plugins"
+
+gallery2:
+  - url: /assets/images/2022-10-21-Home-Server/VPN-Network.png
+    image_path: /assets/images/2022-10-21-Home-Server/VPN-Network.png
+    alt: "VPN Network Settings"
+    title: "VPN Network Sttings"
+  - url: /assets/images/2022-10-21-Home-Server/VPN-Network-Unfi.png
+    image_path: /assets/images/2022-10-21-Home-Server/VPN-Network-Unfi.png
+    alt: "Unifi VPN Network Settings"
+    title: "Unifi VPN Network Settings"
+
+gallery3:
+  - url: /assets/images/2022-10-21-Home-Server/IOT-Devices.png
+    image_path: /assets/images/2022-10-21-Home-Server/IOT-Devices.png
+    alt: "Unifi Showing IOT Devices"
+    title: "Unifi Showing IOT Devices"
+
+gallery4:
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20221113_143127896.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20221113_143127896.jpg
+    alt: "Switched Off"
+    title: "Switched Off"
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20221113_144318914.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20221113_144318914.jpg
+    alt: "Starting Up"
+    title: "Starting Up"
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20221113_144501629.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20221113_144501629.jpg
+    alt: "Average Draw"
+    title: "Average Draw"
+
+gallery5:
   - url: /assets/images/2022-10-21-Home-Server/IMG_20170824_193606.jpg
     image_path: /assets/images/2022-10-21-Home-Server/IMG_20170824_193606.jpg
     alt: ""
@@ -19,6 +55,50 @@ gallery1:
     title: ""
   - url: /assets/images/2022-10-21-Home-Server/IMG_20170824_205023.jpg
     image_path: /assets/images/2022-10-21-Home-Server/IMG_20170824_205023.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/IMG_20170825_212232.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/IMG_20170825_212232.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/IMG_20180322_203305.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/IMG_20180322_203305.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/IMG_20180409_181006.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/IMG_20180409_181006.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/IMG_20190326_190000.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/IMG_20190326_190000.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20210130_171443960.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20210130_171443960.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20210130_175215200.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20210130_175215200.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20210130_192800939.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20210130_192800939.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20210130_192806113.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20210130_192806113.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20220315_211814506.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20220315_211814506.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20221113_142653676.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20221113_142653676.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/2022-10-21-Home-Server/PXL_20221113_142928495.jpg
+    image_path: /assets/images/2022-10-21-Home-Server/PXL_20221113_142928495.jpg
     alt: ""
     title: ""
 
@@ -49,25 +129,68 @@ It was originally built on October 2017 (it's now 5 years old and still running 
 
 There’s a really good article [here](https://forums.freenas.org/index.php?threads/proper-power-supply-sizing-guidance.38811/&sa=D&source=editors&ust=1666005686712431&usg=AOvVaw3fWtXxbU1ao3xzj10ko_LA) about calculating the required power supply wattage. I initially started using 4 but over time I managed to fill them up, at that point it rebuilt my server with 8 drives.
 
-| Working out | | Power|
+| **Power supply needed**| | **Power**|
 |:-|-:|-:|
-| Each drive will need approximately 35 Watts each |                6 X 35    |     210W |
-| Approximately 25W for the motherboard | |                                          25W |
-| Motherboard Maximum Supported Wattage | |                                      80W |
-| 4 slots available on the motherboard for memory |             4 X 6         |      24W |
-| 2 built in fans on the Fractal Design Case + CPU Fan  |      3 X 30         |      90W |
-| **Approximate Total Wattage** | |                                             **429W** |
-| **Multiply the wattage by 1.25 to give a reasonable margin of error** | |  **536.25W** |
+| Each drive will need approximately 35 Watts each          |  6 X 35     | 210W        |
+| Approximately 25W for the motherboard                     |             | 25W         |
+| Motherboard Maximum Supported Wattage                     |             | 80W         |
+| 4 slots available on the motherboard for memory           | 4 X 6       | 24W         |
+| 2 built in fans on the Fractal Design Case + CPU Fan      | 3 X 30      | 90W         |
+| **Approximate Total Wattage**                             |             | **429W**    |
+| **Multiply the wattage by 1.25 to give a reasonable margin of error** | | **536.25W** |
 
 So, I’m looking for a 550 Watt power supply and since it seems to be recommended on the Freenas Forum, I’m going to buy the [Seasonic G550 550W 80+ Gold Certified PSU](https://www.amazon.com/Seasonic-SSR-550RM-Semi-Modular-CrossFire-Capacitor/dp/B00918MEZG) after reading a good review of the product [here](https://www.legitreviews.com/seasonic-g-series-550w-ssr-550rm-power-supply-review_2148).
 
-### What I'm running
+### Software running on the server
 
 I've been running [TrueNAS Core](https://www.truenas.com/download-truenas-core/) since early 2017 and it's been rock solid.
 
 My Seagate drives are arranged in a [ZFS RaidZ2](https://calomel.org/zfs_raid_speed_capacity.html) pool called Tank; this gives me 21TiB of raw storage. I’m currently only using 6.8 TiB (32%). Every month, my server backs up all my important data to a [Backblaze B2](https://www.backblaze.com/b2/cloud-storage.html) Bucket.
 
-My two Samsung 1TiB SSD drives are running in a mirrored raid configuration and I'm running the following Jails.
+The following jails are linked to [sabnzbd](https://sabnzbd.org/) which is currently running on a [Raspberry Pi 3](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/). The plan going forward, is to move everything from [TrueNAS Core](https://www.truenas.com/truenas-core/) to [TrueNAS Scale](https://www.truenas.com/truenas-scale/), including [sabnzbd](https://sabnzbd.org/) and add a few other Linux Containers.
+
+I'm running the jails on two Samsung 1TiB SSD drives in a mirrored raid configuration, I'm currently running the following Jails.
+
+{% include gallery id="gallery1" layout="" caption="" %}
+
+### VPN Network (192.168.20.0/24 VLAN ID 20)
+
+[Lidarr](https://lidarr.audio/), [radarr](https://radarr.video/), [sonarr](https://sonarr.tv/) and [sabnzbd](https://sabnzbd.org/) are all running on my [VPN]([VPN](https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn/) ) [VLAN](https://www.n-able.com/blog/what-are-vlans) and are using a [VPN](https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn/) as the default gateway rather than the WAN interface, for privacy if nothing else (Tinfoil hat at the ready :smiley:).
+
+{% include gallery id="gallery2" layout="" caption="" %}
+
+### IOT Network (172.16.69.0/24 VLAN ID 40)
+
+My [Plex Pass](https://support.plex.tv/articles/200288566-what-is-plex-pass/) [jail](https://www.truenas.com/community/threads/a-quick-intro-to-jails.39220/) is running on a locked down [IOT VLAN](https://thesmarthomejourney.com/2021/07/19/vlan-secure-smarthome-network/)  , with various other IOT devices, [Amazon Fire Stick](https://www.amazon.co.uk/fire-tv-stick-4k-with-alexa-voice-remote/dp/B08XVVPXX4/ref=sr_1_2?crid=2ZLZ0PXD16BE1&keywords=fire+tv+stick+4k&qid=1668280003&sprefix=fire+tv+stick+4k%2Caps%2C94&sr=8-2), Google Chromecast, Phones and [Hubitat](https://hubitat.com/) Home Automation Hub, yes, your [mobile phone](https://www.intechopen.com/chapters/56113) is also an IOT devices.
+
+{% include gallery id="gallery3" layout="" caption="" %}
+
+### Home Network (192.168.30.0/24 VLAN ID 10)
+
+This VLAN is used for our Windows 10/11 personal and work devices, printers and home server shares, Nothing can access this VLAN from the IOT network or the VPN network, you can of course access ports 80, 443 and 22 to the IOT and the VPN networks.
+
+### How to Calculate running cost of the Home Server
+
+Easy explanation thanks to  [Martin Lewis](https://www.moneysavingexpert.com/)
+
+1. Find its wattage (average)
+2. Know 1000W is a Kilowatt (kW)
+3. We pay roughly 18.31p per kW per hour (at the moment)
+
+100W (a tenth of a kW) on for an hour is 1.83p an hour  
+24 hours would cost 1.83 x 24 = 44p per day  
+30 days x 44p per day = £13.20 Per Month  
+We pay 20% VAT on fuel, so £13.20 + 20% = £15.84 Per Month  
+
+{% include gallery id="gallery4" layout="third" caption="Low, Hight and Average Draw" %}
+
+As the homeserver's average draw is only 55W, the average cost per month is **£8.72**
+
+The power meter plug (energy meter) can be purchased from Amazon, [here](https://www.amazon.co.uk/gp/product/B085S7Q1T4/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) is the link.
+
+### Build Photos
+
+{% include gallery id="gallery5" layout="third" caption="" %}
 
 ## References
 
@@ -80,23 +203,11 @@ My two Samsung 1TiB SSD drives are running in a mirrored raid configuration and 
 * FreeNAS: [Download](https://www.truenas.com/download-truenas-core/)
 * FreeNAS: [Users Guide](https://www.ixsystems.com/documentation/freenas/11.3-U5/freenas.html)
 * FreeNAS Official: [Hardware Recommendations](https://www.truenas.com/docs/core/gettingstarted/corehardwareguide/)
-* FreeNAS Community: [Hardware Recommendations](https://www.truenas.com/community/resources/hardware-recommendations-guide.12/)
-* FreeNAS Complete Guide: FreeNAS Hardware Design
-* ZFS and ECC RAM: WHAT YOU SHOULD KNOW
-* Stress Testing Hard Drives: Burn-In Testing
-* How to Install FreeNAS Video: Installing FreeNAS to USB Drive
-* Distrowatch Article: Myths of ZFS
-* Setting up Scrubs: Scheduling Scrubs
-* Setting up SMART Alerts: SMART Alerts
-
-Martin Lewis
-@MartinSLewis
-·
-Oct 10
-How to calculate energy cost of an appliance
-
-1. Find its wattage
-2. Know 1000W is a Kilowatt (kW)
-3. You pay roughly 34p per kW per hour
-
-So 100W (a tenth of a kW) appliance on for two hours is 3.4p an hour x 2 = 6.8p
+* TrueNAS Community: [Hardware Recommendations](https://www.truenas.com/community/resources/hardware-recommendations-guide.12/)
+* TrueNAS Complete Guide: [TrueNAS Hardware Design](https://www.truenas.com/blog/a-complete-guide-to-freenas-hardware-design-part-i-purpose-and-best-practices/)
+* ZFS and ECC RAM: [WHAT YOU SHOULD KNOW](https://www.truenas.com/community/threads/ecc-vs-non-ecc-ram-and-zfs.15449/)
+* Stress Testing Hard Drives: [Burn-In Testing](https://www.truenas.com/community/threads/building-burn-in-and-testing-your-freenas-system.17750/)
+* How to Install FreeNAS Video: [Installing FreeNAS to USB Drive](https://www.youtube.com/watch?v=tWNqq3rwbNA)
+* Distrowatch Article: [Myths of ZFS](https://distrowatch.com/weekly.php?issue=20150420#myth)
+* Setting up Scrubs: [Scheduling Scrubs](https://www.ixsystems.com/documentation/freenas/11.3-U5/tasks.html#scrub-tasks)
+* Setting up SMART Alerts: [SMART Alerts](https://www.ixsystems.com/documentation/freenas/11.3-U5/services.html?highlight=smart#s-m-a-r-t)
