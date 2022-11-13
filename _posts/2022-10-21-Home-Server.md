@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Current Home Server"
-date: 2022-10-21
+date: 2022-11-13
 categories: Computing Homelab Homeserver
 
 gallery1:
@@ -180,6 +180,7 @@ Easy explanation thanks to  [Martin Lewis](https://www.moneysavingexpert.com/)
 100W (a tenth of a kW) on for an hour is 1.83p an hour  
 24 hours would cost 1.83 x 24 = 44p per day  
 30 days x 44p per day = £13.20 Per Month  
+
 We pay 20% VAT on fuel, so £13.20 + 20% = £15.84 Per Month  
 
 {% include gallery id="gallery4" layout="third" caption="Low, Hight and Average Draw" %}
