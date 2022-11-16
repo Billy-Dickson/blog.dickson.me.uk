@@ -116,7 +116,7 @@ author:
   # twitter          : "BillyDickson4"
   linkedin         : "billydickson"
   instagram        : "billydickson157"
-  mastodon         : "@bill_dickson"
+  mastodon         : "@Bill_Dickson"
   github           : "Billy-Dickson"
 
   links:
@@ -134,13 +134,13 @@ author:
       # url: "https://facebook.com/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      # url: https://www.linkedin.com
+      # url: "https://www.linkedin.com"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
-      url: "https://mastodon.scot/"
+      url: "https://mastodon.scot/@Bill_Dickson"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
