@@ -111,13 +111,14 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Beer lover, Runner (5K, 10K, Half and Full Marathon), IT Support Tech, IOT Junkie and Dad"
   location         : "Edinburgh, Scotland"
-  github           : "Billy-Dickson"
+  email            : "billy@dickson.me.uk"
   facebook         : "billy.dickson"
-  twitter          : "BillyDickson4"
-  mastodon         : "@bill_dickson"
-  instagram        : "billydickson157"
+  # twitter          : "BillyDickson4"
   linkedin         : "billydickson"
-  
+  instagram        : "billydickson157"
+  mastodon         : "@bill_dickson"
+  github           : "Billy-Dickson"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -131,22 +132,25 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      # url: https://www.linkedin.com
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
-      url: "https://mastodon.scot/@bill_dickson"
-      
+      url: "https://mastodon.scot/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/BillyDickson4"
+    - # label: "Twitter"
+      # icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/BillyDickson4"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: https://facebook.com/billy.dickson
