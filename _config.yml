@@ -111,7 +111,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Beer lover, Runner (5K, 10K, Half and Full Marathon), IT Support Tech, IOT Junkie and Dad"
   location         : "Edinburgh, Scotland"
-  email            : "Billy_Dickson@outlook.com"
+  # email            : "Billy_Dickson@outlook.com"
   facebook         : "billy.dickson"
   # twitter          : "BillyDickson4"
   linkedin         : "billydickson"
