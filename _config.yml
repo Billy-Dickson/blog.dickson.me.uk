@@ -66,12 +66,13 @@ search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
 
 # Added by Billy Dickson 21:07:22
+# algola revoked my search credentails as I was not getting enough traffic.
 
-algolia:
-  application_id:       '7LFQJICOWM'
-  index_name:           'dickson.me.uk'
-  search_only_api_key:  '777a4db5685501fb026179a516965154'
-  powered_by             : # true (default), false
+# algolia:
+#  application_id:       '7LFQJICOWM'
+# index_name:           'dickson.me.uk'
+#  search_only_api_key:  '777a4db5685501fb026179a516965154'
+# powered_by             : # true (default), false
 
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
