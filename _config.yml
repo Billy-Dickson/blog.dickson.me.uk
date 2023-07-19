@@ -121,12 +121,12 @@ author:
   github           : "Billy-Dickson"
 
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Blog"
-      icon: "fas fa-fw fa-link"
-      url: "https://stopfaffing.co.uk/"
+    # - label: "Email"
+    # icon: "fas fa-fw fa-envelope-square"
+    # url: "mailto:your.name@email.com"
+    # - label: "Blog"
+    # icon: "fas fa-fw fa-link"
+    #  url: ""
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
